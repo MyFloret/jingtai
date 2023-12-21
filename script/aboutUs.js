@@ -299,7 +299,3 @@ $(".aptNav>div").click(function(){
     $(this).addClass("aptActive");
     $(this).siblings().removeClass("aptActive");
 })
-
-
-
-
