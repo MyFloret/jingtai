@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/swiper-bundle.min.css">
     <link rel="stylesheet" href="./css/animate.min.css">
+    <link rel="stylesheet" href="./css/viewer.min.css">
 </head>
 
 <body>
@@ -123,9 +124,9 @@
                     <span>更新时间：2023-09-13</span>
                     <span>967</span>
                 </div>
-                <ul class="legantBox">
+                <ul class="legantBox" id="bookLog">
                     <li>
-                        <img src="https://img6.spdl.com/2023/9/22/s_1711535769d143.jpg" alt="">
+                        <img src="/images/al_1123231231231231.png" alt="">
                        <div>嘻嘻哗哗公司</div>
                     </li>
                     <li>
@@ -246,8 +247,12 @@
         </div>
     </div>
     <script src="./script/jquery.min.js"></script>
+    <script src="./script/viewer.min.js"></script>
     <script src="./script/swiper-bundle.min.js"></script>
     <script src="./script/aboutUs.js"></script>
+    <script>
+        $('#bookLog').viewer({ url: "data-original" });
+    </script>
 </body>
 
 </html>
