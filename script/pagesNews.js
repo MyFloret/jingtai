@@ -76,7 +76,8 @@ function createPager(pager, pagerNumber, middlePager, container, customLink) {
     input.type = 'text';
     li2.appendChild(input);
     divpager.appendChild(li2);
-
+    console.log("//  设置的")
+    console.log("线分割------一下为跳转交互功能实现");
     var li3 = document.createElement('li');
     var button = document.createElement('button');
     button.innerText = '确定';
@@ -89,11 +90,17 @@ function createPager(pager, pagerNumber, middlePager, container, customLink) {
             window.location.href = newUrl; // 更新页面 URL
         }
     });
+
     li3.appendChild(button);
     divpager.appendChild(li3);
 
     // 添加进容器中
     container.appendChild(divpager);
 }
-console.log("page")
+// 百度地图api
+// <img src="https://api.map.baidu.com/images/marker_red_sprite.png" style="display: block; border:none;margin-left:0px; margin-top:0px; ">
+
+
+
+
 

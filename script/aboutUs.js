@@ -299,3 +299,12 @@ $(".aptNav>div").click(function(){
     $(this).addClass("aptActive");
     $(this).siblings().removeClass("aptActive");
 })
+
+let winScrollHeight2 = $(window).scrollTop();
+if (winScrollHeight2 < 110) {
+    $(".banner").css({
+        "margin-top": "102px"
+    })
+}
+
+
