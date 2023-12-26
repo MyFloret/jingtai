@@ -143,7 +143,6 @@ function initialResizeCheck() {
     }
 }
 
-
 window.onload = function () {
     initialResizeCheck()
 }
@@ -307,3 +306,11 @@ if (winScrollHeight2 < 110) {
         "margin-top": "102px"
     })
 }
+
+define([
+    'require',
+    'dependency'
+], function(require, factory) {
+    'use strict';
+    // 
+});
