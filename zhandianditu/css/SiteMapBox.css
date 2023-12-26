@@ -1,0 +1,324 @@
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+.Site-details-box {
+    background-color: rgb(247, 247, 247);
+}
+
+.crumbs-navigation {
+    width: 1190px;
+    margin: 10px auto;
+    height: 20px;
+    line-height: 20px;
+}
+
+.crumbs {
+    width: 266px;
+    height: 14px;
+    font-size: 14px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #1A1A1A;
+}
+
+.crumbs-navigation>.crumbs>span:nth-of-type(1),
+.crumbs-navigation>.crumbs>span:nth-of-type(2) {
+    font-size: 14px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #1A1A1A;
+}
+
+.crumbs-navigation>.crumbs>span:nth-of-type(4) {
+    font-size: 14px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #666666;
+}
+
+.crumbs-title-top {
+    height: 53px;
+    width: 1200px;
+    margin: 16px auto;
+    background: white;
+}
+
+.crumbs-title-top>div {
+    position: relative;
+    width: 1180px;
+    height: 53px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    border-bottom: 1px solid #00000036;
+}
+
+.crumbs-title-top>div>div {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 38px;
+    line-height: 38px;
+    margin-top: 15px;
+    background: #F7F7F7;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.active-crumbs {
+    position: relative;
+    color: #E90100;
+    top: 1px;
+    background: #FFFFFF !important;
+    border-left: 1px solid #0000002b;
+    border-right: 1px solid #0000002b;
+}
+
+.active-crumbs>a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 84px;
+    height: 3px;
+    background-color: #E90100;
+}
+.crumbs-title{
+    background-color: rgb(247, 247, 247);
+}
+.crumbs-title-text {
+    margin: auto;
+    width: 1200px;
+}
+
+.correct{
+    width: 1200px;
+    background: white;
+    margin: 0 auto;
+}
+.chunk-context-update {
+    position: relative;
+    height: 192px;
+    width: 1200px;
+    background: #FFFFFF;
+    border-radius: 2px;
+}
+
+.chunk-context-update>ul {
+    height: 192px;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.chunk-context-update>ul>li {
+    position: relative;
+    width: 249px;
+    display: block;
+    line-height: 28px;
+}
+
+.chunk-context-update>ul>li>a {
+    display: block;
+    font-size: 14px;
+    width: 249px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #1A1A1A;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.chunk-context-update>ul>li>a::before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: #999999;
+    border-radius: 50%;
+    top: 12px;
+    left: -10px;
+}
+
+.chunk-context-update>ul>li {
+    margin-left: 40px;
+}
+
+.chunk-context-update>ul>li:nth-of-type(1),
+.chunk-context-update>ul>li:nth-of-type(5),
+.chunk-context-update>ul>li:nth-of-type(9),
+.chunk-context-update>ul>li:nth-of-type(13),
+.chunk-context-update>ul>li:nth-of-type(17),
+.chunk-context-update>ul>li:nth-of-type(21),
+.chunk-context-update>ul>li:nth-of-type(25),
+.chunk-context-update>ul>li:nth-of-type(29),
+.chunk-context-update>ul>li:nth-of-type(33),
+.chunk-context-update>ul>li:nth-of-type(37),
+.chunk-context-update>ul>li:nth-of-type(41),
+.chunk-context-update>ul>li:nth-of-type(45),
+.chunk-context-update>ul>li:nth-of-type(49),
+.chunk-context-update>ul>li:nth-of-type(53),
+.chunk-context-update>ul>li:nth-of-type(57),
+.chunk-context-update>ul>li:nth-of-type(61),
+.chunk-context-update>ul>li:nth-of-type(65) {
+    margin-left: 10px;
+}
+
+.dotted-line-one {
+    position: absolute;
+    top: 6px;
+    left: 306px;
+    width: 1px;
+    height: 170px;
+    background: #E5E5E5;
+}
+
+.dotted-line-one-cp {
+    position: absolute;
+    top: -1px;
+    left: 306px;
+    width: 1px;
+    height: 212px;
+    background: #E5E5E5;
+}
+
+.dotted-line-one-qyk {
+    position: absolute;
+    top: 8px;
+    left: 306px;
+    width: 1px;
+    height: 509px;
+    background: #E5E5E5;
+}
+
+.dotted-line-two-qyk {
+    position: absolute;
+    top: 8px;
+    left: 600px;
+    width: 1px;
+    height: 509px;
+    background: #E5E5E5;
+}
+
+.dotted-line-stree-qyk {
+    position: absolute;
+    top: 8px;
+    left: 888px;
+    width: 1px;
+    height: 509px;
+    background: #E5E5E5;
+}
+
+.dotted-line-two-cp {
+    position: absolute;
+    top: -1px;
+    left: 600px;
+    width: 1px;
+    height: 432px;
+    background: #E5E5E5;
+}
+
+.dotted-line-two {
+    position: absolute;
+    top: 6px;
+    left: 600px;
+    width: 1px;
+    height: 170px;
+    background: #E5E5E5;
+}
+
+.dotted-line-stree-cp {
+    position: absolute;
+    top: -1px;
+    left: 888px;
+    width: 1px;
+    height: 212px;
+    background: #E5E5E5;
+}
+
+.dotted-line-stree {
+    position: absolute;
+    top: 6px;
+    left: 888px;
+    width: 1px;
+    height: 170px;
+    background: #E5E5E5;
+}
+
+.oneUpdata {
+    height: 215px !important;
+
+}
+
+.oneUpdata>ul {
+    height: 215px !important;
+}
+
+.twoUpdata {
+    height: 540px !important;
+}
+
+.twoUpdata>ul>li {
+    line-height: 2.2;
+}
+
+.newpage {
+    width: 730px;
+    margin: 27px auto;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.newpage ul li {
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.newpage ul li a {
+    display: inline-block;
+    color: #333;
+    border: 1px solid #dcdcdca8;
+    border-radius: 3px;
+    text-decoration: none;
+    width: 30.1px;
+    height: 30.1px;
+    line-height: 30.1px;
+}
+
+.newpage ul li a.bdn {
+    border: none;
+}
+
+.bge {
+    background: #eee;
+}
+
+.newpage ul li.select a,
+.newpage ul li a:hover {
+    color: #E90100;
+    border-color: #f10215;
+    background: rgba(233,1,0,0.1);
+}
+.towards-left>a>img{
+    width: 7px;
+    height: 12px;
+}
+.twain-img{
+    position: relative;
+}
+.twain-img>a>img{
+    position: absolute;
+}
+.twain-img>a>img:nth-of-type(1){
+    left: 10px;
+    top: 11px;
+}
+.twain-img>a>img:nth-of-type(2){
+    top: 11px;
+}

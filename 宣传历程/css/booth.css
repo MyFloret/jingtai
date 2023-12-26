@@ -1,0 +1,229 @@
+.come_url{
+	padding: 0.8rem 0rem;
+	border-bottom: 1px solid #eee;
+}
+.come_url span{
+	margin-right: 0.4rem;
+}
+.swiper-pagination-bullet-active{
+	background-color: #fff !important;
+}
+.swiper-container{
+	margin: 1.3rem 0rem;
+}
+.swiper-slide img{
+	width: 100%;
+}
+.tab-switch{
+	margin-bottom: 2rem;
+}
+.tab-roll {
+	width: 100%;
+	height: 2rem;
+	display: flex;
+	flex-wrap: nowrap;
+	white-space: normal;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+.Scroll-hiding {
+	overflow: hidden;
+	width: 100%;
+	height: 2rem;
+}
+.tab-switch .switch-tab {
+	font-size: 1.4rem;
+	color: #333333;
+	display: block;
+	width: 50% !important;
+	white-space: nowrap;
+	margin-left: 2rem;
+}
+.tab-roll::-webkit-scrollbar {
+	display: none; /* 隐藏滚动条 */
+}
+.switch-active{
+	color: #F72E34 !important;
+	font-weight: bold;
+	font-size: 1.5rem !important;
+}
+.switch-active::after{
+	position: absolute;
+	content: '';
+	width: 100%;
+	bottom: -0.6rem;
+	left: 0;
+	height: 0.4rem;
+	border-radius: 2rem;
+	background-color: #F72E34;
+}
+.switch-list{
+	display: block;
+	padding: 1.2rem 1.6rem;
+	margin-bottom: 1rem;
+	border-radius: 0.5rem;
+}
+.switch-list .switch-title{
+	color: #333333;
+	font-size: 1.6rem;
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+.switch-list .switch-text{
+	color: #999999;
+	margin-top: 0.3rem;
+	font-size: 1.2rem;
+}
+
+/* 展会详情信息 */
+.booth-msg{
+	padding: 2rem 0.8rem;
+}
+.msg-title{
+	color: #333333;
+	font-size: 1.7rem;
+	font-weight: bold;
+	margin-bottom: 1.4rem;
+}
+.msg-text{
+	margin-top: 0.5rem;
+	font-size: 1.5rem;
+	color: #333333;
+}
+.boothHtml{
+	overflow: hidden;
+	max-height: 0px;
+	margin-top:15px;
+}
+.boothHtml>p{
+	font-size:1.5rem;
+}
+.booth-look{
+	width: 94%;
+	height: 3.4rem;
+	line-height: 3.4rem;
+	text-align: center;
+	display: block;
+	margin: 2rem auto 0rem;
+	background-color: #F7F7F7;
+	color: #F72E34;
+	font-size: 1.3rem;
+}
+.compentents{
+	padding: 0rem 0.8rem 1.6rem;
+}
+.compentents_title{
+	margin-top: 1.6rem;
+}
+.compentents_title .msg-text{
+	margin: 0.4rem 1.2rem 0rem;
+}
+.title_left{
+	color: #1A1A1A;
+	font-size: 1.6rem;
+	font-weight: bold;
+	position: relative;
+	padding-left: 1.2rem;
+	margin-bottom: 1rem;
+}
+.title_left:before{
+	position: absolute;
+	left: 0;
+	top: 0.4rem;
+	content: ' ';
+	width: 0.4rem;
+	height: 1.6rem;
+	background-color: #F72E34;
+}
+.booth-tab{
+	padding: 1.2rem 0rem;
+	height: 4rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.tab-class{
+	color: #1A1A1A;
+	font-size: 1.5rem;
+	margin: 0px 1rem;
+	position: relative;
+	height: 4rem;
+	line-height: 4rem;
+	box-sizing: border-box;
+	border-bottom: 0.35rem solid #fff;
+}
+.tab-active{
+	color: #F72E34 !important;
+	font-weight: bold;
+	border-bottom: 0.35rem solid #F72E34;
+}
+.more{
+	color: #999999 !important;
+	font-size: 1.3rem;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.more img{
+	width: 0.6rem;
+	height: 1.2rem;
+	margin-top: 0.2rem;
+	margin-left: 0.8rem;
+}
+.compentents-ul{
+	padding: 0px 0rem 1.8rem;
+	  
+}
+.compentents-li{
+	height: 4.2rem;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	border-bottom: 0.1rem solid #E5E5E5;
+}
+.compentents-li  .compentents-yuan{
+	width: 0.6rem;
+	border-radius: 50%;
+	height: 0.6rem;
+	background-color: #F72E34;
+	margin: 0px 1rem;
+}
+.compentents-li  .compentents-text{
+	color: #333333 !important;
+	font-size: 1.4rem;
+	width: 90%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+@media screen and (min-width:900px) {
+	.switch-list{
+		padding: 1.5rem 2rem;
+		margin-bottom: 1.5rem;
+	}
+	.switch-list .switch-title{
+		font-size: 1.8rem;
+		margin-bottom: 1.3rem;
+	}
+	.switch-list .switch-text{
+		margin-top: 0.5rem;
+		font-size: 1.5rem;
+	}
+	.msg-title{
+		font-size: 2rem;
+	}
+	.msg-text{
+		font-size: 1.6rem;
+	}
+	.booth-look{
+		height: 4.8rem;
+		line-height: 4.8rem;
+		font-size: 1.6rem;
+	}
+	.compentents-li  .compentents-yuan{
+		  margin: 0px 1.4rem;
+	}
+	.compentents-li  .compentents-text{
+		font-size: 1.5rem;
+	}
+}

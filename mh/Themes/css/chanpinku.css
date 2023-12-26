@@ -1,0 +1,462 @@
+.zhuticont {
+    width: 1200px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.cont-left {
+    float: left;
+    width: 860px;
+}
+
+.cont-left-top {
+    width: 860px;
+    height: 40px;
+    background-color: #f3f3f3;
+}
+
+.cont-left-top>div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.cont-left-top>div:nth-of-type(1) {
+    width: 4px;
+    height: 22px;
+    background: linear-gradient(3deg, #E90E13, #EF8A60);
+    margin: 10px 15px;
+}
+
+.cont-left-top>div:nth-of-type(2) {
+    height: 40px;
+    line-height: 13px;
+}
+
+.cont-left-top>div:nth-of-type(2)>p {
+    font-weight: 400;
+    color: #333333;
+    font-size: 14px;
+}
+
+.cont-left-top>div:nth-of-type(2)>p>a {
+    color: #333333;
+}
+
+.cont-right {
+    float: right;
+    width: 330px;
+    border: 1px solid #CCCCCC;
+}
+
+.cont-right-top {
+    width: 330px;
+    height: 40px;
+    line-height: 40px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    background: #ECECEC;
+    font-size: 16px;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #333333;
+}
+
+.main-list li {
+    margin-bottom: 10px;
+    padding: 10px 0 10px 10px;
+    border: 1px solid #e5e5e5;
+}
+
+.main-list-product-pic {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin-right: 15px;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+}
+
+.main-list-product {
+    width: 250px;
+}
+
+.fl {
+    float: left;
+}
+
+.main-list-company {
+    margin: 38px 20px 0 0;
+}
+
+.fr {
+    float: right;
+}
+
+.main-list-product-pic>img {
+    width: 148px;
+    height: 148px;
+}
+
+.main-list-product-name {
+    display: block;
+    max-width: 320px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #444;
+}
+
+.main-list-product>p {
+    color: #888;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.main-list-contact {
+    margin-left: 5px;
+    margin-right: 10px;
+    color: #32b16c;
+    border: 1px solid #32b16c;
+}
+
+.main-list-contact,
+.main-list-agent {
+    width: 100px;
+    height: 30px;
+    margin-top: 7px;
+    font-size: 14px;
+    line-height: 28px;
+    box-sizing: border-box;
+}
+
+.tac {
+    text-align: center;
+}
+
+.main-list-agent {
+    color: #f10215;
+    border: 1px solid #f10215;
+}
+
+.base-tit:after,
+.central:after,
+.clearfix:after,
+.pagenav:after,
+.paging:after,
+.widget ul:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.main-list-company-top {
+    width: 352px;
+    padding-bottom: 10px;
+}
+
+.main-list-company-pic {
+    display: block;
+    width: 120px;
+    height: 80px;
+    margin-right: 12px;
+}
+
+.main-list-company-top div {
+    width: 220px;
+}
+
+.main-list-company-pic>img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+.main-list-company-name {
+    display: block;
+    max-width: 220px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #444;
+}
+
+.tfh,
+.latest-product-list-name,
+.latest-product-list-detail>p,
+.product-detail-classify,
+.product-detail-brand,
+.product-detail-area,
+.product-list-con-name,
+.main-list-company-name,
+.main-list-product-name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.main-list-company-label {
+    margin: 10px 0 15px;
+}
+
+.main-list-company-recom {
+    width: 90px;
+    height: 20px;
+    margin-right: 12px;
+    color: #fff;
+    line-height: 20px;
+    background: url(../images/tuijianhuiyuan.png) no-repeat center;
+}
+
+.main-list {
+    margin-top: 13px;
+}
+
+.base-tit:after,
+.central:after,
+.clearfix:after,
+.pagenav:after,
+.paging:after,
+.widget ul:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.main-list-company-area>i {
+    display: block;
+    width: 10px;
+    height: 14px;
+    margin-right: 6px;
+    background: url(../images/dingwei.png) no-repeat center;
+}
+
+.main-list-company-area>span {
+    color: #444;
+}
+
+.recomed-ul {
+    width: 100%;
+    padding: 0px 10px 10px;
+    box-sizing: border-box;
+}
+
+.recomed-li {
+    padding-bottom: 6px;
+    border-bottom: 1px solid #E5E5E5;
+    margin-top: 11px;
+}
+
+.wrap_main_content ul,
+li,
+p {
+    list-style: none;
+}
+
+.recomed-li .recomed-li-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.recomed-li:nth-child(1) .recomed-li-title span {
+    background: #FF0000;
+}
+
+.recomed-li .recomed-li-title span {
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 10px;
+    background: #FFCC33;
+    border-radius: 2px;
+}
+
+.recomed-li .recomed-li-title a {
+    color: #333333;
+    font-size: 12px;
+    margin-left: 4px;
+    width: 230px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.recomed-li .recomed-li-box {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 8px;
+}
+
+.recomed-li .img_box {
+    margin-left: 5px;
+}
+
+.recomed-li-box .li-box-left {
+    width: 90px;
+    height: 90px;
+}
+
+.li-box-right .li-box-href {
+    color: #0066CC;
+    width: 140px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    font-size: 12px;
+}
+
+.recomed-li .starr5 i {
+    display: block;
+    width: 70px;
+    height: 14px;
+    background: url(https://www.spdl.com/Themes/Images/Index/start.png) repeat;
+}
+
+.dis_fsz {
+    display: flex;
+    justify-content: flex-start;
+}
+
+._c {
+    align-items: center;
+}
+
+.li-box-right .li-box-color {
+    color: #666;
+}
+
+.li-box-right .li-box-btn {
+    display: block;
+    color: #fff !important;
+    width: 70px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 4px;
+    background: #ff9900;
+}
+
+.recomed-li-box .li-box-right {
+    width: 140px;
+    margin-left: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.li-box-color>div:nth-of-type(1) {
+    font-size: 13px;
+}
+
+.recomed-li .recomed-company {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.6s;
+}
+
+.recomed-company:nth-of-type(1) {
+    height: 100px;
+}
+
+.recommenda {
+    margin-top: 25px;
+}
+
+.product-list-con>ul {
+    margin-top: 12px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-list-con li {
+    width: 117px;
+    height: auto;
+    margin: 0 8px 6px;
+}
+
+.product-list-con-pic {
+    display: block;
+    width: 117px;
+    height: 79px;
+    border: 1px solid #e5e5e5;
+}
+
+a {
+    text-decoration: none !important;
+    color: #444;
+}
+
+.product-list-con-name {
+    display: block;
+    line-height: 18px;
+    padding: 0 8px;
+    color: #666;
+    font-size: 12px;
+}
+
+.product-list-con-pic>img {
+    width: 117px;
+    height: 77px;
+    object-fit: cover;
+}
+
+.device {
+    width: 456px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.device>div {
+    flex-wrap: wrap;
+    width: 30px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #C8C8C8;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.danzuo {
+    background-image: url(../images/zuojiantou.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 58% !important;
+    background-position: center center !important;
+}
+
+.shaungyou {
+    background-image: url(../images/twoyoujiantou.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 58% !important;
+    background-position: center center !important;
+}
+
+.arr-right {
+    background-image: url(../images/arrow-right.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 58% !important;
+    background-position: center center !important;
+}
+
+.pageactive {
+    background: rgba(233, 1, 0, 0.1) !important;
+    border: 1px solid #E90100 !important;
+    border-radius: 2px !important;
+    color: red !important;
+}

@@ -1,0 +1,389 @@
+@font-face {
+    font-family: 'Source Han Sans CN';
+    src: url('../fontSizeBag/Source\ Han\ Sans\ CN\ Regular.eot');
+    src: url('../fontSizeBag/Source\ Han\ Sans\ CN\ Regular.eot') format('embedded-opentype'),
+        url('../fontSizeBag/Source\ Han\ Sans\ CN\ Regular.woff2') format('woff2'),
+        url('../fontSizeBag/Source\ Han\ Sans\ CN\ Regular.woff') format('woff'),
+        url('../fontSizeBag/Source\ Han\ Sans\ CN\ Regular.ttf') format('truetype'),
+        url('../fontSizeBag/Source\ Han\ Sans\ CN\ Regular.svg') format('svg')
+}
+
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+.big-map-box {
+    background-color: rgb(247, 247, 247);
+    overflow: hidden;
+}
+
+.map-newest-box {
+    width: 1200px;
+    height: 301px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    margin: 16px auto;
+}
+
+.map-library-box {
+    width: 1200px;
+    height: 518px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.map-consult-box {
+    width: 1200px;
+    height: 518px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    margin: 20px auto;
+}
+
+.chunk-title>div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.chunk-title {
+    position: relative;
+    height: 53px;
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.chunk-title>img {
+    width: 31px;
+    height: 17px;
+}
+
+.chunk-title-img {
+    margin-left: 21px;
+    margin-top: 21px;
+}
+
+.chunk-title-headline {
+    margin-left: 3px;
+    margin-top: 8px;
+    font-size: 18px;
+    font-family: Source Han Sans CN;
+    font-weight: bold;
+    color: #1A1A1A;
+    line-height: 44px;
+}
+
+.view-more {
+    font-size: 14px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #666666;
+    line-height: 44px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+.chunk-title>i {
+    position: absolute;
+    right: 12px;
+    top: 25px;
+    width: 7px;
+    height: 12px;
+    background-image: url(../images/youjiantou.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.chunk-title::before {
+    position: absolute;
+    bottom: 0;
+    left: 18.5px;
+    content: "";
+    width: 1163px;
+    height: 1px;
+    background: #E5E5E5;
+}
+
+.chunk-context {
+    width: 1200px;
+    height: 213px;
+    margin: 14px auto;
+}
+
+.chunk-context>div {
+    position: relative;
+    width: 248px;
+    height: 215px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 16px;
+}
+
+.chunk-context>div:nth-of-type(2),
+.chunk-context>div:nth-of-type(3),
+.chunk-context>div:nth-of-type(4) {
+    margin-left: 37px;
+}
+
+.chunk-context>div>ul {
+    position: absolute;
+    top: -15px;
+    left: -37px;
+    width: 248px;
+    height: 215px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.chunk-context>div:nth-of-type(2),
+.chunk-context>div:nth-of-type(3),
+.chunk-context>div:nth-of-type(4) {
+    border-left: 1px solid #E5E5E5;
+}
+
+.chunk-context>div>ul>li {
+    position: relative;
+    width: 270px;
+    height: 31px;
+    line-height: 31px;
+    font-size: 14px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #1A1A1A;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+.original-point {
+    width: 5px;
+    height: 5px;
+    background: #999999;
+    border-radius: 50%;
+}
+
+.chunk-context>div>ul>li>a {
+    display: block;
+    font-size: 14px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #1A1A1A;
+    padding-left: 11px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.chunk-context>div>ul>li>a::before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: #999999;
+    border-radius: 50%;
+    top: 12px;
+    left: 1px;
+}
+
+.Left-line {
+    height: 435px !important;
+}
+
+.Left-line:nth-of-type(2),
+.Left-line:nth-of-type(3) .Left-line:nth-of-type(4) {
+    border-left: 1px solid #E5E5E5;
+}
+
+.map-exhibition-box {
+    margin: 19px auto;
+    width: 1200px;
+    height: 245px;
+    background: #FFFFFF;
+    border-radius: 2px;
+}
+
+.map-encyclopedia-box {
+    margin: 20px auto;
+    width: 1200px;
+    height: 245px;
+    background: #FFFFFF;
+    border-radius: 2px;
+}
+
+.map-price-box {
+    margin: 20px auto;
+    width: 1199px;
+    height: 245px;
+    background: #FFFFFF;
+    border-radius: 2px;
+}
+
+.chunk-context-update {
+    position: relative;
+    height: 192px;
+    width: 1200px;
+    background: #FFFFFF;
+    border-radius: 2px;
+}
+
+.chunk-context-update>ul {
+    height: 192px;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.chunk-context-update>ul>li {
+    position: relative;
+    width: 249px;
+    display: block;
+    line-height: 28px;
+}
+
+.chunk-context-update>ul>li>a {
+    display: block;
+    font-size: 14px;
+    width: 249px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #1A1A1A;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.chunk-context-update>ul>li>a::before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: #999999;
+    border-radius: 50%;
+    top: 12px;
+    left: -10px;
+}
+
+.chunk-context-update>ul>li {
+    margin-left: 40px;
+}
+
+.chunk-context-update>ul>li:nth-of-type(1),
+.chunk-context-update>ul>li:nth-of-type(5),
+.chunk-context-update>ul>li:nth-of-type(9),
+.chunk-context-update>ul>li:nth-of-type(13),
+.chunk-context-update>ul>li:nth-of-type(17),
+.chunk-context-update>ul>li:nth-of-type(21),
+.chunk-context-update>ul>li:nth-of-type(25),
+.chunk-context-update>ul>li:nth-of-type(29),
+.chunk-context-update>ul>li:nth-of-type(33),
+.chunk-context-update>ul>li:nth-of-type(37),
+.chunk-context-update>ul>li:nth-of-type(41),
+.chunk-context-update>ul>li:nth-of-type(45),
+.chunk-context-update>ul>li:nth-of-type(49),
+.chunk-context-update>ul>li:nth-of-type(53) {
+    margin-left: 10px;
+}
+
+.dotted-line-one {
+    position: absolute;
+    top: 6px;
+    left: 306px;
+    width: 1px;
+    height: 170px;
+    background: #E5E5E5;
+}
+
+.dotted-line-one-cp {
+    position: absolute;
+    top: -1px;
+    left: 306px;
+    width: 1px;
+    height: 212px;
+    background: #E5E5E5;
+}
+
+.dotted-line-one-qyk {
+    position: absolute;
+    top: -1px;
+    left: 306px;
+    width: 1px;
+    height: 212px;
+    background: #E5E5E5;
+}
+
+.dotted-line-two-qyk {
+    position: absolute;
+    top: -1px;
+    left: 600px;
+    width: 1px;
+    height: 432px;
+    background: #E5E5E5;
+}
+
+.dotted-line-stree-qyk {
+    position: absolute;
+    top: -1px;
+    left: 888px;
+    width: 1px;
+    height: 432px;
+    background: #E5E5E5;
+}
+
+.dotted-line-two-cp {
+    position: absolute;
+    top: -1px;
+    left: 600px;
+    width: 1px;
+    height: 215px;
+    background: #E5E5E5;
+}
+
+.dotted-line-two {
+    position: absolute;
+    top: 6px;
+    left: 600px;
+    width: 1px;
+    height: 170px;
+    background: #E5E5E5;
+}
+
+.dotted-line-stree-cp {
+    position: absolute;
+    top: -1px;
+    left: 888px;
+    width: 1px;
+    height: 212px;
+    background: #E5E5E5;
+}
+
+.dotted-line-stree {
+    position: absolute;
+    top: 6px;
+    left: 888px;
+    width: 1px;
+    height: 170px;
+    background: #E5E5E5;
+}
+
+.oneUpdata {
+    height: 215px !important;
+
+}
+
+.oneUpdata>ul {
+    height: 215px !important;
+}
+
+.twoUpdata {
+    height: 430px !important;
+}
+
+.twoUpdata>ul>li {
+    line-height: 2.2;
+}

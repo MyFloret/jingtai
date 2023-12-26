@@ -1,0 +1,146 @@
+footer {
+    width: 100%;
+    margin: 10px auto;
+    margin-top: 15px;
+    border-top: 4px solid #FF3300;
+    background: #fff !important;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footr-bg,
+.footr-bg a {
+    color: #000;
+    font-size: 13px;
+}
+
+.footr {
+    width: 980px;
+}
+
+.footr ul>li {
+    width: auto;
+    line-height: 16px;
+}
+
+.footr ul>li .line {
+    display: block;
+    margin: 2px 20px 0;
+    width: 1px;
+    height: 12px;
+    background: #747474;
+}
+
+.footr p {
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.safe_info {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.footl {
+    margin-right: 30px;
+    width: 180px;
+    height: auto;
+}
+
+.footl>a {
+    display: block;
+}
+
+.footl>a>img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.dn {
+    display: none;
+}
+
+.logo2 {
+    display: block;
+    margin: 15px 0;
+    width: 180px;
+    height: 52px;
+}
+
+.footr ul {
+    padding: 16px 0 2px;
+}
+
+.foot-list li:last-child {
+    margin-right: 0;
+}
+
+.foot-list li {
+    margin-right: 27px;
+    width: 40px;
+    height: 40px;
+}
+
+.foot-list li i {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url(/Themes/images/common/btmcontact.png) no-repeat;
+}
+
+.foot-ewm {
+    position: relative;
+}
+
+.foot-ewm:hover .foot-ewm-pic {
+    display: block;
+}
+
+.foot-ewm-pic {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    margin-left: -45px;
+    width: 92px;
+    height: 92px;
+    border: 1px solid #eee;
+}
+
+.foot-ewm-pic>img {
+    width: 100%;
+    height: 100%;
+}
+
+.foot-list li:first-child i {
+    background-position: 0 -57px;
+}
+
+.foot-list li:nth-child(2) i {
+    background-position: -57px -57px;
+}
+
+.foot-list li:last-child i {
+    background-position: -113px -57px;
+}
+
+.foot-list li:first-child:hover i {
+    background-position: 0 0;
+}
+
+.foot-list li:nth-child(2):hover i {
+    background-position: -57px 0;
+}
+
+.foot-list li:last-child:hover i {
+    background-position: -113px 0;
+}
+
+.foot-list li:nth-of-type(1):hover .foot-ewm-pic {
+    display: block;
+}

@@ -1,0 +1,254 @@
+.wrap_main_content {
+    width: 1190px;
+    height: 131px;
+    margin: 15px auto;
+}
+
+.wrap_main_content .friendly-link {
+    border: 1px solid #e5e5e5;
+    background: #fff;
+}
+
+.wrap_main_content .container {
+    width: 1190px;
+    height: 131px;
+    margin: 0 auto;
+}
+
+.wrap_main_content .friendly-link-t {
+    line-height: 41px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+
+.wrap_main_content .friendly-link-t>.le {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.wrap_main_content .friendly-link-t-line {
+    width: 4px;
+    height: 16px;
+    margin: 13px 10px 0 15px;
+    background: #FF4000;
+}
+
+.wrap_main_content .friendly-link-tit {
+    font-size: 18px;
+    color: #000;
+}
+
+.wrap_main_content .friendly-link-t span:last-child {
+    margin-left: 5px;
+    font-size: 18px;
+    color: #333;
+}
+
+.friendly-link-tit {
+    font-weight: bold;
+    color: #000000;
+    font-size: 18px;
+}
+
+.jshy {
+    font-weight: 400;
+    color: #333333 !important;
+    font-size: 14px !important;
+    margin-left: 15px !important;
+}
+
+.friendly-link-t>.ri {
+    margin-right: 10px !important;
+}
+
+.friendly-link-list {
+    width: 1155px;
+    padding: 0 30px;
+}
+
+.friendly-link-list>ul>li {
+    font-weight: 400;
+    color: #595959;
+    font-size: 14px;
+    width: 155px;
+    margin-top: 5px;
+}
+
+.footer_content {
+    width: 100%;
+    background-color: #FFFFFF !important;
+    border-top: 4px solid #FF4000;
+}
+
+.container-fluid {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.footer_content .container {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.footer_content .footl {
+    width: 190px;
+    height: auto;
+    margin-right: 20px;
+    margin-top: 9px;
+}
+
+.footer_content a {
+    text-decoration: none !important;
+}
+
+.footer_content .logo2 {
+    display: block;
+    width: 180px;
+    height: auto;
+    margin: 4px 0px 6px;
+}
+
+.footer_content .foot-list li {
+    width: 40px;
+    height: 40px;
+    margin-right: 30px;
+}
+
+.footer_content .foot-ewm {
+    position: relative;
+}
+
+.footer_content .foot-list li:first-child i {
+    background-position: 0 -57px;
+}
+
+.footer_content .foot-list li i {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url(../images/btmcontact.png) no-repeat;
+}
+
+.footer_content .foot-ewm-pic {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    width: 92px;
+    height: 92px;
+    margin-left: -45px;
+    border: 1px solid #eee;
+}
+
+.footer_content .foot-list li:nth-child(2) i {
+    background-position: -57px -57px;
+}
+
+.footer_content .foot-list li:last-child a {
+    display: block;
+}
+
+.footer_content .foot-list li:last-child i {
+    background-position: -113px -57px;
+}
+
+
+.footer_content .foot-list li {
+    width: 40px;
+    height: 40px;
+    margin-right: 30px;
+}
+
+.footer_content .foot-ewm {
+    position: relative;
+}
+
+.footer_content .foot-list li:last-child {
+    margin-right: 0;
+}
+
+.footer_content .foot-ewm-pic>img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer_content .dn {
+    display: none;
+}
+
+.footer_content .footr {
+    width: 980px;
+}
+
+.footer_content .footr ul {
+    padding: 18px 0 6px;
+}
+
+.footr ul>li {
+    width: auto;
+    line-height: 16px;
+}
+
+.footer_content .footr ul>li>a {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.footer_content .footr ul>li .line {
+    display: block;
+    width: 1px;
+    height: 12px;
+    margin: 2px 10px 0;
+    background: #74747475;
+}
+
+.footer_content .clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    line-height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.footer-bga {
+    font-weight: 400;
+    color: #595959;
+    font-size: 14px;
+}
+
+.disclaimer_t {
+    font-size: 12px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: rgba(89, 89, 89, 0.6);
+    margin-top: 4px;    
+}
+
+.safe_info {
+    margin: 10px auto;
+}
+
+.safe_info>a:nth-of-type(1) {
+    margin-left: 173px;
+}
+
+.footer_content .foot-list li:first-child:hover .awsd {
+    background-position: 0 0;
+    display: block;
+}
+
+.footer_content .wechat_c:hover .wx {
+    background-position: 0 0;
+    display: block;
+}
+.footer_content .footr ul>li>a:hover{
+    color: #FF3300;
+}
+.friendly-link-list>ul>li>a:hover{
+    color: #FF3300;
+}

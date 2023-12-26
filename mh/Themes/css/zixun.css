@@ -1,0 +1,347 @@
+img {
+    border: none;
+    width: 100%;
+}
+
+.cont-left {
+    float: left;
+    width: 860px;
+    margin-bottom: 10px;
+}
+
+.cont-left-top {
+    width: 860px;
+    height: 40px;
+    background-color: #f3f3f3;
+}
+
+.information-cont {
+    width: 1200px;
+    margin: 15px auto;
+    overflow: hidden;
+}
+
+.cont-left-top>div:nth-of-type(1) {
+    width: 4px;
+    height: 22px;
+    background: linear-gradient(3deg, #E90E13, #EF8A60);
+    margin: 10px 15px;
+}
+
+.cont-left-top>div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.cont-left-top>div:nth-of-type(2) {
+    height: 40px;
+    line-height: 13px;
+}
+
+.cont-left-top>div:nth-of-type(2)>p {
+    font-weight: 400;
+    color: #333333;
+    font-size: 14px;
+}
+
+.cont-left-top>div:nth-of-type(2)>p>a {
+    color: #333333;
+}
+
+a {
+    text-decoration: none !important;
+    color: #444;
+}
+
+.cont-right {
+    float: right;
+    width: 330px;
+}
+
+.cont-right-top {
+    width: 330px;
+    height: 40px;
+    line-height: 40px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    background: #f7f8f9;
+    font-size: 16px;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #333333;
+    position: relative;
+}
+
+.hot-change>img {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+}
+
+.hot-change>span {
+    width: 42px;
+    height: 12px;
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #666666;
+}
+
+.hot-change {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.device {
+    width: 456px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.device>div {
+    flex-wrap: wrap;
+    width: 30px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #C8C8C8;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.danzuo {
+    background-image: url(../images/zuojiantou.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 58% !important;
+    background-position: center center !important;
+}
+
+.pageactive {
+    background: rgba(233, 1, 0, 0.1) !important;
+    border: 1px solid #E90100 !important;
+    border-radius: 2px !important;
+    color: red !important;
+}
+
+.shaungyou {
+    background-image: url(../images/twoyoujiantou.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 58% !important;
+    background-position: center center !important;
+}
+
+.arr-right {
+    background-image: url(../images/arrow-right.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 58% !important;
+    background-position: center center !important;
+}
+
+.newllist>ul {
+    position: relative;
+}
+
+.newboxleft {
+    width: 841px;
+    border-top: 1px solid #dcdcdc39;
+    position: relative;
+    margin: 0 35px 20px 0;
+}
+
+.newllist ul li {
+    padding: 15px 0;
+    border-bottom: 1px dotted #dcdcdc;
+    display: flex;
+    width: 841px;
+}
+
+.newllist ul li .newliimg {
+    width: 180px;
+    height: 120px;
+    margin-right: 20px;
+}
+
+.newllist ul li .newliimg a {
+    display: block;
+    width: 180px;
+    height: 120px;
+    border-radius: 3px;
+}
+
+a:link,
+a:visited {
+    color: #444;
+    text-decoration: none;
+}
+
+.newllist ul li .newliimg a img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+
+.newllist ul li .newlit {
+    font-size: 17px;
+    display: block;
+    font-weight: 500;
+    height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: Source Han Sans CN;
+}
+
+.newllist ul li .newptext {
+    font-size: 13px;
+    color: #666;
+    padding: 15px 0;
+    line-height: 24px;
+}
+
+.content-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.newliinfol {
+    background: #EFEFEF;
+    /* opacity: 0.1; */
+    border-radius: 11px;
+    font-size: 12px;
+    padding: 6px 9px;
+    color: #A2A2A2;
+    display: flex;
+    align-items: center;
+}
+
+.img-demo {
+    background: url(https://www.spdl.com/Themes/Images/News/button.png) no-repeat;
+    background-size: 11px 11px;
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    margin-right: 5px;
+}
+
+.box-textBar {
+    display: flex;
+    position: absolute;
+    right: 0px;
+}
+
+.dis {
+    display: flex;
+    align-items: center;
+}
+
+.fr {
+    float: right;
+}
+
+.newliinfo {
+    font-size: 12px;
+    color: #999;
+}
+
+.iconfont2 {
+    background: url(https://www.spdl.com/Themes/Images/News/eyes.png) no-repeat;
+    background-size: 15px 12px;
+    width: 15px;
+    height: 12px;
+    display: inline-block;
+    margin-right: 7px;
+}
+
+.years {
+    margin-left: 29px;
+}
+
+.container-right {
+    /* margin-top: 14px; */
+    flex-wrap: wrap;
+    display: flex;
+    background: #f7f8f9;
+    justify-content: space-between;
+}
+
+.containerBar {
+    width: 142px;
+}
+
+.container-img {
+    width: 142px;
+    height: 142px;
+    border: 1px solid #E5E5E5;
+}
+
+.container-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.container-text {
+    font-size: 13px;
+    margin-top: 10px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #1A1A1A;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.recommendBar {
+    padding: 15px 10px 10px 11px;
+    background: #F7F8F9;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.recommend {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.recommend-text {
+    font-size: 18px;
+    font-family: Source Han Sans CN;
+    font-weight: bold;
+    color: #1A1A1A;
+    margin-left: 4px;
+}
+.uniDl {
+    display: flex;
+}
+.uniDt {
+    width: 80px;
+    height: 50px;
+}
+.uniDt img {
+    width: 80px;
+    height: 50px;
+}
+.uniDd {
+    margin-left: 10px;
+    /* padding: 6px 0 0px; */
+}
+.uniDd p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #1A1A1A;
+    line-height: 23px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-family: Source Han Sans CN;
+}

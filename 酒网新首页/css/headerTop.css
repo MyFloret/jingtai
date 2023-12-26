@@ -1,0 +1,497 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none
+}
+
+body {
+    font-size: 13px;
+    background: #f2f2f2;
+    font-family: 'Microsoft Yahei';
+}
+
+a {
+    cursor: pointer;
+    color: #666
+}
+
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+
+.clearfix {
+    zoom: 1
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.disCenter {
+    display: flex;
+    justify-content: center
+}
+
+.disSbet {
+    display: flex;
+    justify-content: space-between
+}
+
+.disSa {
+    display: flex;
+    justify-content: space-around
+}
+
+.disFdc {
+    display: flex;
+    flex-direction: column
+}
+
+.aitem {
+    align-items: center
+}
+
+.disf {
+    display: flex
+}
+
+.fw {
+    flex-wrap: wrap
+}
+
+.disInb {
+    display: inline-block;
+    vertical-align: top
+}
+
+.disStart {
+    display: flex;
+    justify-content: start
+}
+
+
+.header_top_right>ul>li>a {
+    height: 12px;
+    line-height: 12px;
+    color: #666;
+    font-weight: 400;
+}
+
+.header_top_right>ul>li:hover a {
+    color: #FF4000;
+}
+
+.header_top {
+    width: 1200px;
+    height: 41px;
+    margin: 0 auto;
+}
+
+.header_top_left {
+    position: relative;
+}
+
+.header_top_left>span {
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    line-height: 41px;
+    color: #666
+}
+
+.header_top_right {
+    position: relative
+}
+
+.header {
+    background: #f7f7f7
+}
+
+.header_top_left>a:nth-of-type(1) {
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FF4000;
+    margin-left: 10px;
+}
+
+.header_top_left>a:nth-of-type(2) {
+    width: 66px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 400;
+    color: #FF4000;
+    height: 26px;
+    line-height: 26px;
+    margin-left: 10px
+}
+
+.header_top_right>ul {
+    height: 41px;
+    line-height: 41px
+}
+
+.header_top_right>ul>li {
+    height: 41px;
+    line-height: 41px;
+    text-align: center;
+    position: relative;
+    padding: 0 10px
+}
+
+.header_top_right>ul>li::before {
+    position: absolute;
+    content: "";
+    top: 13px;
+    right: 0;
+    width: 1px;
+    height: 16px;
+    background: #ccc
+}
+
+.Express_agency {
+    position: absolute;
+    top: 8px;
+    right: -95px;
+    width: 78px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 14px;
+    background: url(/Themes/images/index_news/speediness.png) no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* 一键代理开始 */
+
+.modelDemo {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 99999;
+}
+
+.agentModel {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.agentModel .model_bgcolor {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: .5;
+    z-index: 9998
+}
+
+.agentModel .model_box {
+    background-color: #fff;
+    width: 43.75rem;
+    z-index: 9999;
+    position: relative
+}
+
+.agentModel .model_box .model_kefu {
+    background: url(/Themes/Images/Agent/modelBg.png) no-repeat;
+    background-size: 100% 100%;
+    height: 3.375rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    align-items: center;
+    width: 27.75rem;
+    margin: -1.0625rem auto 1.25rem
+}
+
+.agentModel .model_box .model_kefu>div:first-child {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-top: .2rem
+}
+
+.agentModel .model_box .model_kefu>div:last-child {
+    font-size: .75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .1rem
+}
+
+.agentModel .model_box .model_kefu p:last-child {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: .5rem
+}
+
+.agentModel .model_box .model_line {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: .625rem;
+    margin-left: 3rem
+}
+
+.agentModel .model_box .model_line .dis_fs {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center
+}
+
+.agentModel .model_box .model_line .dis_fs select {
+    width: 16rem;
+    height: 1.875rem;
+    line-height: 1.875rem;
+    padding-left: .5rem;
+    padding-right: .75rem;
+    border: 1px solid #ccc;
+    margin-right: .625rem;
+    font-size: 14px;
+    border-radius: 2px;
+    color: #a4adb4
+}
+
+.agentModel .model_box .model_line .copyPhone {
+    height: 2rem;
+    border: none;
+    width: 5rem;
+    line-height: 2rem;
+    text-align: center;
+    background-color: #e80100;
+    color: #fff;
+    font-size: .875rem;
+    margin-left: .625rem;
+    cursor: pointer
+}
+
+.agentModel .model_box .model_line .line_title {
+    width: 80px;
+    margin-right: .625rem;
+    display: flex;
+    font-size: .875rem;
+    justify-content: flex-end;
+    color: #1f1f1f
+}
+
+.model_box .model_line .line_title .line_xing {
+    position: relative
+}
+
+.model_box .model_line .line_title .line_xing::before {
+    position: absolute;
+    content: "*";
+    left: -10px;
+    top: 0;
+    color: #d60100
+}
+
+.agentModel .model_box .model_line .line_input {
+    width: 22.5rem;
+    height: 1.875rem;
+    border: 1px solid #ccc;
+    border-radius: .125rem;
+    padding-left: .5rem;
+    font-size: 14px
+}
+
+.agentModel .model_box .model_line .line_input::placeholder {
+    color: #a4adb4
+}
+
+.agentModel .model_box .model_line .line_input:focus {
+    border: 1px solid #fff;
+    outline: 1px solid #ea5050
+}
+
+.agentModel .model_box .model_line .outer select {
+    width: 10.25rem;
+    height: 1.875rem;
+    line-height: 1.875rem;
+    padding-left: .5rem;
+    padding-right: .75rem;
+    border: 1px solid #ccc;
+    margin-right: .625rem;
+    font-size: 14px;
+    border-radius: 2px;
+    color: #a4adb4
+}
+
+.agentModel .model_box .model_line .line_textarea {
+    width: 16rem;
+    height: 6.25rem;
+    box-sizing: border-box;
+    padding: .625rem .75rem;
+    border: 1px solid #ccc;
+    margin-right: .625rem;
+    border-radius: 2px
+}
+
+.agentModel .line_checked {
+    width: 16rem;
+    height: 6.25rem;
+    padding: .25rem .8rem 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc
+}
+
+.agentModel .line_checked .check_box {
+    margin-top: .3rem;
+    display: flex;
+    justify-content: flex-start;
+    font-size: .75rem;
+    color: #1c1c1c;
+    border-radius: 2px
+}
+
+.agentModel .line_checked .check_box input[type=checkbox] {
+    cursor: pointer;
+    position: relative;
+    margin-top: .1rem;
+    margin-right: .625rem
+}
+
+.agentModel .line_checked .check_box input[type=checkbox]::after {
+    position: absolute;
+    top: 0;
+    background-color: #fff;
+    color: #fff;
+    width: .875rem;
+    height: .875rem;
+    display: inline-block;
+    visibility: visible;
+    padding-left: 0;
+    text-align: center;
+    content: ' ';
+    border-radius: 2px;
+    box-sizing: border-box;
+    border: 1px solid #ddd
+}
+
+.agentModel .line_checked .check_box input[type=checkbox]:checked::after {
+    content: "";
+    background-color: #f10215;
+    border-color: #f10215;
+    background-color: #f10215
+}
+
+.agentModel .line_checked .check_box input[type=checkbox]:checked::before {
+    content: '';
+    position: absolute;
+    top: .0625rem;
+    left: .3125rem;
+    width: .1875rem;
+    height: .5rem;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    z-index: 1
+}
+
+.choice_box {
+    margin-left: 8.625rem
+}
+
+.choice_box .radio_box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: .875rem
+}
+
+.choice_box .radio_box input {
+    margin-right: .5rem;
+    margin-left: .9375rem
+}
+
+.choice_box .radio_box input:first-child {
+    margin-left: 0
+}
+
+.choice_box .check_box {
+    display: flex;
+    justify-content: flex-start;
+    font-size: .875rem;
+    align-items: center;
+    margin-top: .5rem
+}
+
+.choice_box .check_box input {
+    margin-right: .5rem
+}
+
+.choice_box .check_box a {
+    text-decoration: none
+}
+
+.agentModel .modelSubmit {
+    width: 16rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    background-color: #e80100;
+    border-radius: 6px;
+    border: none;
+    display: block;
+    margin: 1rem auto;
+    color: #fff;
+    font-size: 1.25rem;
+    cursor: pointer
+}
+
+.agentModel .closeModel {
+    width: 1.875rem;
+    height: 1.875rem;
+    position: absolute;
+    top: 1.25rem;
+    right: .9375rem;
+    cursor: pointer
+}
+.regPhone {
+    height: 2rem;
+    border: none;
+    padding: 0 0.32rem;
+    line-height: 2rem;
+    text-align: center;
+    background-color: #e80100;
+    color: #fff;
+    font-size: .875rem;
+    margin-left: 0.625rem;
+    cursor: pointer;
+    width: auto!important;
+}
+/*将默认的select选择框样式清除,在选择框的最右侧中间显示小箭头图片*/
+.agentModel select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url(/Themes/Images/Agent/selectDown.png) no-repeat right .8rem center;
+    background-size: .5rem .375rem
+}
+
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+.agentModel select::-ms-expand {
+    display: none
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="myButton">点击按钮</button>
+    <div id="targetElement">hahahahahahah</div>
+    hahahahahahah
+</body>
+<script>
+    // copy功能 不用基础库
+    
+    const button = document.getElementById('myButton');
+    const targetElement = document.getElementById('targetElement');
+
+    button.addEventListener('click', function () {
+        // 创建一个临时元素
+        const tempElement = document.createElement('textarea');
+
+        // 将要复制的内容赋值给临时元素的value属性
+        tempElement.value = targetElement.textContent;
+
+        // 将临时元素添加到DOM中，但不要让它可见
+        document.body.appendChild(tempElement);
+        tempElement.style.position = 'absolute';
+        tempElement.style.left = '-9999px';
+        console.log(tempElement.select)
+        // 选中临时元素内容
+        tempElement.select();
+        // 执行复制命令
+        document.execCommand('copy');
+
+        // 移除临时元素
+        document.body.removeChild(tempElement);
+        alert('已复制到剪贴板');
+    });
+    button.onclick = function () {
+        console.log();
+    }
+</script>
+
+</html>
