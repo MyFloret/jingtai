@@ -58,7 +58,7 @@ $(window).scroll(function () {
         })
         $(".nav>li").css({
             "height": "76px",
-            "line-height":"98px"
+            "line-height": "98px"
         })
         $(".nav>li>a").css({
             "margin-top": "34px",
@@ -78,7 +78,7 @@ $(window).scroll(function () {
     } else {
         $(".nav>li").css({
             "height": "101px",
-            "line-height":"148px",
+            "line-height": "148px",
             "transition": "all .1s"
         })
         $(".ovdenBox").css({
@@ -142,6 +142,7 @@ function initialResizeCheck() {
         })
     }
 }
+
 
 window.onload = function () {
     initialResizeCheck()
@@ -238,7 +239,7 @@ if (location.href.split("?code=")[1]) {
     $(".usNav2>ul>li").eq(urlNum2).addClass("usNavActive2")
 }
 
-window.onload =  function (){
+window.onload = function () {
     if (document.querySelector(".courseBox")) {
         var timeItems = document.querySelectorAll('.time_item');
         var rightButton = document.querySelector('.right_go');
@@ -292,7 +293,7 @@ window.onload =  function (){
 
 $(".certificateBox").hide();
 $(".certificateBox").eq(0).show()
-$(".aptNav>div").click(function(){
+$(".aptNav>div").click(function () {
     let numr = $(this).index()
     $(".certificateBox").hide();
     $(".certificateBox").eq(numr).show()
@@ -306,6 +307,3 @@ if (winScrollHeight2 < 110) {
         "margin-top": "102px"
     })
 }
-let transforms = div.winScrollHeight()
-console.dirxml("suc")
-
