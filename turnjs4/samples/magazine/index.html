@@ -192,6 +192,43 @@
 		both: ['../../lib/zoom.min.js', 'js/magazine.js', 'css/magazine.css'],
 		complete: loadApp
 	});
+	// ture banner slideshow magazine magezoom previous  addclass butdown
+	$(window).resize(function () {
+		resizeViewport();
+	}).bind('orientationchange', function () {
+		resizeViewport();
+	});
+	$('.thumbnails').click(function (event) {
+		var page;
+		if (event.target && (page = /page-([0-9]+)/.exec($(event.target).attr('class')))) {
+
+			$('.magazine').turn('page', page[1]);
+			sendmessage.turn()
+		}
+	});
+
+	new Promise((resolve, reject) => {
+		setInterval(() => {
+			/*
+		
+				function dara(){
+					let magaine = window.on scrollToprenshengwindwos.documentBodyHeight
+						let mapData = data.map((item,index)=>{
+						return	item.id = index+1
+					})
+					$('.thumbnails').removeClass('thumbnails-hover');
+				}
+				console.log(data._photo_.type)
+				log
+		
+			*/
+		}, interval);
+	})
+	
+
+
+
+
 </script>
 
 </html>
