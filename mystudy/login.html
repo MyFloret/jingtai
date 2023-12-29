@@ -1,0 +1,122 @@
+<template>
+    <div class="register-box">
+      <!-- 用户名 -->
+      <el-input
+        class="ipt"
+        placeholder="用户名"
+        @focus="userErr = ''"
+        v-model="userName"
+      >
+        <i slot="prefix" class="el-input__icon el-icon-user"></i>
+      </el-input>
+      <span class="err" v-show="userErr">{{ userErr }}</span>
+      <!-- 密码 -->
+      <el-input
+        class="ipt"
+        placeholder="密码"
+        @focus="pwdErr1 = ''"
+        v-model="password1"
+        type="password"
+      >
+        <i slot="prefix" class="el-input__icon el-icon-key"></i>
+      </el-input>
+      <span class="err" v-show="pwdErr1">{{ pwdErr1 }}</span>
+      <!-- 确认密码 -->
+      <el-input
+        class="ipt"
+        placeholder="确认密码"
+        @focus="pwdErr2 = ''"
+        v-model="password2"
+        type="password"
+      >
+        <i slot="prefix" class="el-input__icon el-icon-key"></i>
+      </el-input>
+      <span class="err" v-show="pwdErr2">{{ pwdErr2 }}</span>
+  
+      <el-button type="success" @click="register">注册</el-button>
+    </div>
+  </template>
+  <script>
+  import { getRegister } from '@/tools/ajax'
+  export default {
+    data () {
+      return {
+        userName: '',
+        password1: '',
+        password2: '',
+        userErr: '',
+        pwdErr1: '',
+        pwdErr2: ''
+      }
+    },
+    methods: {
+      async register () {
+        // 用户名正则验证
+        const nameReg = /^[\w\u4e00-\u9fa5]{6,12}$/
+        if (!nameReg.test(this.userName)) {
+          this.userErr = '只能包含数字、字母、下划线、汉字6-12位'
+          return false
+        }
+  
+        // 密码正则验证
+        const pwdReg = /^\w{6,12}$/
+        if (!pwdReg.test(this.password1)) {
+          this.pwdErr1 = '只能包含数字、字母、下划线6-12位'
+          return false
+        }
+  
+        // 确认密码
+        if (this.password1 != this.password2) {
+          this.pwdErr2 = '两次输入的密码不一致'
+          return false
+        }
+  
+        console.log('验证通过')
+  
+        const res = await getRegister({
+          userName: this.userName,
+          password: this.password1
+        })
+        if (res.code == 0) {
+          this.$message({
+            type: 'warning',
+            message: '用户名被占用'
+          })
+          this.userName = this.userErr = this.password = this.pwdErr = ''
+        } else {
+          this.$message({
+            type: 'success',
+            message: '注册成功，赶快去登录吧'
+          })
+          setTimeout(() => {
+            this.$router.push('/login')
+            this.userName = this.userErr = this.password = this.pwdErr = ''
+          }, 1000)
+        }
+      }
+    //
+    }
+  }
+  </script>
+  <style scoped>
+  .register-box {
+    width: 400px;
+    margin: 80px auto;
+  }
+  
+  .register-box .ipt {
+    margin-top: 20px;
+  }
+  
+  .register-box >>> button {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+  }
+  
+  .err {
+    color: red;
+    font-size: 12px;
+  }
+  </style>
