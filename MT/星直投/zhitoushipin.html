@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/fzcommon.css">
+    <link rel="stylesheet" href="./css/strDelivery.css">
+</head>
+
+<body>
+    <div class="dis_c row cont_zhanh marginlr">
+        <div class="col-xl-4 col-md-12 col-xs-12 ">
+            <div class="compentents">
+                <div class="compentents_title">
+                    <ul class="switchover flexsb">
+                        <li>
+                            <a href="javascript:void(0)">
+                                快消★星直投
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                直投期刊
+                            </a>
+                        </li>
+                        <li>
+                            <a class="active_top" href="javascript:void(0)">
+                                直投视频
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="compentents back_w">
+                <div class="compentents_title">
+                    <div class="title_left">快消★星直投视频</div>
+                </div>
+                <div class="compentents_title">
+                    <ul class="flexsb vedio_tent">
+                        <li>
+                            <div class="video-container">
+                                <video class="video-player" poster="./images/2.jpg">
+                                    <source src="./images/Help.mp4" type="video/mp4">
+                                </video>
+                                <button class="play-button"></button>
+                            </div>
+                            <span>星直投介绍</span>
+                        </li>
+                        <li>
+                            <div class="video-container">
+                                <video class="video-player" poster="./images/2.jpg">
+                                    <source src="./images/Help.mp4" type="video/mp4">
+                                </video>
+                                <button class="play-button"></button>
+                            </div>
+                            <span>星直投介绍</span>
+                        </li>
+                        <li>
+                            <div class="video-container">
+                                <video class="video-player" poster="./images/2.jpg">
+                                    <source src="./images/Help.mp4" type="video/mp4">
+                                </video>
+                                <button class="play-button"></button>
+                            </div>
+                            <span>星直投介绍</span>
+                        </li>
+                        <li>
+                            <div class="video-container">
+                                <video class="video-player" poster="./images/2.jpg">
+                                    <source src="./images/Help.mp4" type="video/mp4">
+                                </video>
+                                <button class="play-button"></button>
+                            </div>
+                            <span>星直投介绍</span>
+                        </li>
+                        <li>
+                            <div class="video-container">
+                                <video class="video-player" poster="./images/2.jpg">
+                                    <source src="./images/Help.mp4" type="video/mp4">
+                                </video>
+                                <button class="play-button"></button>
+                            </div>
+                            <span>星直投介绍</span>
+                        </li>
+                        <li>
+                            <div class="video-container">
+                                <video class="video-player" poster="./images/2.jpg">
+                                    <source src="./images/Help.mp4" type="video/mp4">
+                                </video>
+                                <button class="play-button"></button>
+                            </div>
+                            <span>星直投介绍</span>
+                        </li>
+                        <li>
+                            <div class="video-container">
+                                <video class="video-player" poster="./images/2.jpg">
+                                    <source src="./images/Help.mp4" type="video/mp4">
+                                </video>
+                                <button class="play-button"></button>
+                            </div>
+                            <span>星直投介绍</span>
+                        </li>
+                        <li>
+                            <div class="video-container">
+                                <video class="video-player" poster="./images/2.jpg">
+                                    <source src="./images/Help.mp4" type="video/mp4">
+                                </video>
+                                <button class="play-button"></button>
+                            </div>
+                            <span>星直投介绍</span>
+                        </li>
+                        <li>
+                            <div class="video-container">
+                                <video class="video-player" poster="./images/2.jpg">
+                                    <source src="./images/Help.mp4" type="video/mp4">
+                                </video>
+                                <button class="play-button"></button>
+                            </div>
+                            <span>星直投介绍</span>
+                        </li>
+                        <li>
+                            <div class="video-container">
+                                <video class="video-player" poster="./images/2.jpg">
+                                    <source src="./images/Help.mp4" type="video/mp4">
+                                </video>
+                                <button class="play-button"></button>
+                            </div>
+                            <span>星直投介绍</span>
+                        </li>
+                        <li>
+                            <div class="video-container">
+                                <video class="video-player" poster="./images/2.jpg">
+                                    <source src="./images/Help.mp4" type="video/mp4">
+                                </video>
+                                <button class="play-button"></button>
+                            </div>
+                            <span>星直投介绍</span>
+                        </li>
+                        <li>
+                            <div class="video-container">
+                                <video class="video-player" poster="./images/2.jpg">
+                                    <source src="./images/Help.mp4" type="video/mp4">
+                                </video>
+                                <button class="play-button"></button>
+                            </div>
+                            <span>星直投介绍</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/jquery.min.js"></script>
+    <script>
+        document.querySelector('.vedio_tent').addEventListener('click', function (ev) {
+
+            console.log(ev.target.nodeName == "BUTTON")
+            if (ev.target.nodeName == "BUTTON") {
+                console.log(ev.target.parentElement)
+                var videoPlayer =ev.target.previousElementSibling ;
+                // var videoPlayer = document.getElementsByClassName('video-player');
+                // var videoContainer = document.getElementsByClassName('video-container');
+                var videoContainer = document.getElementsByClassName('video-container');
+                console.log(videoPlayer)
+                console.log(videoContainer)
+                videoPlayer.style.display = 'block';
+                if (videoPlayer.requestFullscreen) {
+                    videoPlayer.requestFullscreen().then(function () {
+                        videoContainer.addEventListener('click', function (e) {
+                            if (!videoPlayer.contains(e.target)) {
+                                videoPlayer.pause();
+                                videoPlayer.style.display = 'none';
+                                if (document.fullscreenElement) {
+                                    document.exitFullscreen();
+                                }
+                            }
+                        });
+                    }).catch(function (error) {
+                        alert("浏览器不支持，请更换浏览器观看")
+                    });
+                } else if (videoPlayer.mozRequestFullScreen) {
+                    videoPlayer.mozRequestFullScreen();
+                } else if (videoPlayer.webkitRequestFullscreen) {
+                    videoPlayer.webkitRequestFullscreen();
+                } else if (videoPlayer.msRequestFullscreen) {
+                    videoPlayer.msRequestFullscreen();
+                }
+            }
+
+        });
+    </script>
+</body>
+
+</html>

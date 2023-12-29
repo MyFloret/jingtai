@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/fzcommon.css">
+    <link rel="stylesheet" href="./css/page.css">
+    <link rel="stylesheet" href="./css/reci.css">
+</head>
+
+<body>
+    <div class="dis_c row cont_zhanh marginlr">
+        <div class="col-xl-4 col-md-12 col-xs-12 back_w">
+            <div class="compentents">
+                <div class="inquiry_price">
+                   <div class="inquiry_price_img">
+                    <a href="javascript:void(0)">
+                        <img src="./images/big.jpg" alt="aaaa">
+                    </a>
+                   </div>
+                   <div class="inquiry_price_tent">
+                    <p>土蜂蜜怎么吃更营养土蜂蜜的…</p>
+                    <p>寒冷的天气也让人体的免疫力逐渐下降，因此力逐渐下降，因此<a href="javascript:void(0)">详情</a></p>
+                    <div>
+                        <img src="./images/smalltime.png" alt="">
+                        <span>2019-10-20</span>
+                    </div>
+                   </div>
+                </div>
+            </div>
+            <div class="compentents">
+                <div class="compentents_title">
+                    <div class="title_left"><span class="active_price">椰子汁</span>价格表</div>
+                </div>
+                <div class="compentents_title">
+                    <ul class="title_price">
+                        <li class="element_price">
+                            <div class="price_surface">京时鲜榨椰子汁245g*10瓶/箱</div>
+                            <div class="price_ditto">￥49.90</div>
+                        </li>
+                        <li class="element_price">
+                            <div class="price_surface">京时鲜榨椰子汁245g*10瓶/箱</div>
+                            <div class="price_ditto">￥49.90</div>
+                        </li>
+                        <li class="element_price">
+                            <div class="price_surface">京时鲜榨椰子汁245g*10瓶/箱</div>
+                            <div class="price_ditto">￥49.90</div>
+                        </li>
+                        <li class="element_price">
+                            <div class="price_surface">京时鲜榨椰子汁245g*10瓶/箱</div>
+                            <div class="price_ditto">￥49.90</div>
+                        </li>
+                        <li class="element_price">
+                            <div class="price_surface">京时鲜榨椰子汁245g*10瓶/箱</div>
+                            <div class="price_ditto">￥49.90</div>
+                        </li>
+                        <li class="element_price">
+                            <div class="price_surface">京时鲜榨椰子汁245g*10瓶/箱</div>
+                            <div class="price_ditto">￥49.90</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="compentents">
+                <div class="compentents_title">
+                    <div class="title_left"><span class="active_price">冷萃咖啡</span>相关产品推荐</div>
+                </div>
+                <div class="compentents_title compentents_width">
+                    <ul class="title_reci_box correlation">
+                        <li>
+                            <a href="javascript:void(0)">
+                                <img src="./images/zheng.png" alt="">
+                            </a>
+                            <p>
+                                <a href="javascript:void(0)">味傲蜂蜜芦荟果粒果汁饮…</a>
+                            </p>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <img src="./images/zheng.png" alt="">
+                            </a>
+                            <p>
+                                <a href="javascript:void(0)">味傲蜂蜜芦荟果粒果汁饮…</a>
+                            </p>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <img src="./images/zheng.png" alt="">
+                            </a>
+                            <p>
+                                <a href="javascript:void(0)">味傲蜂蜜芦荟果粒果汁饮…</a>
+                            </p>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <img src="./images/zheng.png" alt="">
+                            </a>
+                            <p>
+                                <a href="javascript:void(0)">味傲蜂蜜芦荟果粒果汁饮…</a>
+                            </p>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <img src="./images/zheng.png" alt="">
+                            </a>
+                            <p>
+                                <a href="javascript:void(0)">味傲蜂蜜芦荟果粒果汁饮…</a>
+                            </p>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <img src="./images/zheng.png" alt="">
+                            </a>
+                            <p>
+                                <a href="javascript:void(0)">味傲蜂蜜芦荟果粒果汁饮…</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="text-align: center;margin:0px auto;">
+        <div id="pager" class="pager clearfix">
+        </div>
+    </div>
+    <script type="text/javascript" src="./scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="./scripts/jquery.z-pager.js"></script>
+    <script type="text/javascript" src="./scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./scripts/fzcommon.js"></script>
+    <script type="text/javascript">
+        $(function () {
+             $("#pager").zPager({
+                totalData: '@ViewBag.totalData',
+                pageData: 12,
+                htmlBox: $('#wraper'),
+                btnBool: true,
+                btnShow: false,
+                current: '@ViewBag.current',
+                ajaxSetData: false,
+                pageStep: 6,
+                url: "/product/@(ViewBag.TopType)-p{page}.html",
+             });
+        })
+    </script>
+</body>
+
+</html>

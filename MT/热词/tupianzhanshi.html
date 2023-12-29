@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/fzcommon.css">
+    <link rel="stylesheet" href="./css/page.css">
+    <link rel="stylesheet" href="./css/reci.css">
+</head>
+
+<body>
+    <div class="dis_c row cont_zhanh marginlr">
+        <div class="col-xl-4 col-md-12 col-xs-12 back_w">
+            <div class="compentents">
+                <div class="compentents_title">
+                    <div class="title_left">产品展示</div>
+                </div>
+                <div class="compentents_title compentents_width">
+                    <ul class="title_reci_box">
+                        <li>
+                            <a href="javascript:void(0)">
+                                <img src="./images/zheng.png" alt="">
+                            </a>
+                            <p>
+                                <a href="">大窑开卫嘉宾味汽水468ml</a>
+                            </p>
+                            <p>辽宁沈大饮品有限公司</p>
+                            <div class="know_more">
+                                <a href="javscript:void(0)">
+                                    <div>了解跟多</div>
+                                    <div></div>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <img src="./images/zheng.png" alt="">
+                            </a>
+                            <p>
+                                <a href="">大窑开卫嘉宾味汽水468ml</a>
+                            </p>
+                            <p>辽宁沈大饮品有限公司</p>
+                            <div class="know_more">
+                                <a href="javscript:void(0)">
+                                    <div>了解跟多</div>
+                                    <div></div>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <img src="./images/zheng.png" alt="">
+                            </a>
+                            <p>
+                                <a href="">大窑开卫嘉宾味汽水468ml</a>
+                            </p>
+                            <p>辽宁沈大饮品有限公司</p>
+                            <div class="know_more">
+                                <a href="javscript:void(0)">
+                                    <div>了解跟多</div>
+                                    <div></div>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <img src="./images/zheng.png" alt="">
+                            </a>
+                            <p>
+                                <a href="">大窑开卫嘉宾味汽水468ml</a>
+                            </p>
+                            <p>辽宁沈大饮品有限公司</p>
+                            <div class="know_more">
+                                <a href="javscript:void(0)">
+                                    <div>了解跟多</div>
+                                    <div></div>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <img src="./images/zheng.png" alt="">
+                            </a>
+                            <p>
+                                <a href="">大窑开卫嘉宾味汽水468ml</a>
+                            </p>
+                            <p>辽宁沈大饮品有限公司</p>
+                            <div class="know_more">
+                                <a href="javscript:void(0)">
+                                    <div>了解跟多</div>
+                                    <div></div>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <img src="./images/zheng.png" alt="">
+                            </a>
+                            <p>
+                                <a href="">大窑开卫嘉宾味汽水468ml</a>
+                            </p>
+                            <p>辽宁沈大饮品有限公司</p>
+                            <div class="know_more">
+                                <a href="javscript:void(0)">
+                                    <div>了解跟多</div>
+                                    <div></div>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="text-align: center;margin:0px auto;">
+        <div id="pager" class="pager clearfix">
+        </div>
+    </div>
+    <script type="text/javascript" src="./scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="./scripts/jquery.z-pager.js"></script>
+    <script type="text/javascript" src="./scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./scripts/fzcommon.js"></script>
+    <script type="text/javascript">
+        $(function () {
+             $("#pager").zPager({
+                totalData: '@ViewBag.totalData',
+                pageData: 12,
+                htmlBox: $('#wraper'),
+                btnBool: true,
+                btnShow: false,
+                current: '@ViewBag.current',
+                ajaxSetData: false,
+                pageStep: 6,
+                url: "/product/@(ViewBag.TopType)-p{page}.html",
+             });
+        })
+    </script>
+</body>
+
+</html>

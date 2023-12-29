@@ -1,0 +1,253 @@
+.flexSb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.cont_zhanh {
+    margin-top: 1.2rem !important;
+}
+
+.more_c>a {
+    display: block;
+}
+
+.marginlr {
+    margin: 0 0.5rem;
+}
+
+.more_c {
+    margin-top: -0.5rem;
+}
+
+.compentents {
+    padding: 0rem 0.8rem 1.6rem;
+}
+
+.compentents_title {
+    margin-top: 1.6rem;
+    position: relative;
+}
+
+.title_left {
+    color: #1A1A1A;
+    font-size: 1.6rem;
+    font-weight: bold;
+    position: relative;
+    padding-left: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.locate_poa {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.locate_poa>a {
+    font-weight: 400;
+    color: #999999 !important;
+}
+
+.title_left:before {
+    position: absolute;
+    left: 0;
+    top: 0.4rem;
+    content: ' ';
+    width: 0.4rem;
+    height: 1.6rem;
+    background-color: #F72E34;
+}
+
+.compentents_title .msg-text {
+    margin: -0.5rem 1.2rem 0rem;
+    color: #999999;
+    font-size: 1rem;
+}
+
+.msg-text {
+    margin-top: 0.5rem;
+    font-size: 1.4rem;
+    color: #333333;
+}
+
+.all_company {
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.compentents_width {
+    width: 100%;
+}
+
+.all_company>li {
+    width: 23%;
+    height: auto;
+    display: inline-block;
+}
+
+.all_company>li>a {
+    display: block;
+}
+
+.all_company>li>a>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.3rem;
+}
+
+.all_company_box {
+    margin-top: 1rem !important;
+}
+
+.more_pinpai {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.more_pinpai>a {
+    display: block;
+}
+
+.scheme_box {
+    width: 100%;
+}
+
+.scheme_tent {
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.scheme_tent>li {
+    display: inline-block;
+    vertical-align: top;
+    width: 80%;
+}
+
+.scheme_tent>li>a {
+    display: block;
+}
+
+.scheme_tent>li>a>img {
+    width: 100%;
+    height: 13rem;
+    border-radius: 0.3rem;
+}
+
+.scheme_tent>li>a:nth-of-type(2),
+.packaging_tent>li>a:nth-of-type(2) {
+    color: #666666 !important;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    white-space: normal;
+    padding-left: 0.3rem;
+}
+
+.scheme_tent>li:not(:first-child) {
+    margin-left: 0.5rem;
+}
+
+.scheme_tent>li>p {
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding-left: 0.3rems;
+}
+
+.packaging_tent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.packaging_tent>li {
+    width: 49%;
+    padding-bottom: 1rem;
+    border: 1px solid #EEEEEE;
+}
+
+.packaging_tent>li>a {
+    display: block;
+}
+
+.packaging_tent>li>p {
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding-left: 0.3rem;
+}
+
+.packaging_tent>li>a>img {
+    width: 100%;
+}
+
+.packaging_tent>li:not(:first-child):not(:nth-child(2)) {
+    margin-top: 0.6rem;
+}
+
+.strategy_box {
+    width: 80%;
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-radius: 19px 19px 0px 0px;
+    padding-bottom: 1rem;
+    display: inline-block;
+    vertical-align: top;
+}
+.strategy_box:nth-of-type(2),
+.strategy_box:nth-of-type(3){
+    margin-left: 1rem;
+}
+.strategy_box>div:nth-of-type(1) {
+    width: 100%;
+    height: 5rem;
+    color: #206CFE;
+    background: linear-gradient(180deg, #206cfe61 0%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 19px 19px 0px 0px;
+    font-size: 1.6rem;
+    padding: 1.3rem 0rem 0rem 1.3rem;
+    font-weight: 600;
+}
+.meander{
+    background: linear-gradient(180deg, #ff8c0896 0%, rgba(255,255,255,0) 100%) !important;
+    color: #FF8C0D !important;
+}
+.information
+{
+    background: linear-gradient(180deg, #e9555ab8  0%, rgba(255,255,255,0) 100%) !important;
+    color: #e9555a !important;
+}
+.strategy_ul>li {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 600;
+    position: relative;
+    padding-left: 2rem;
+    margin-top: 1rem;
+}
+
+.strategy_ul>li::before {
+    position: absolute;
+    content: "";
+    top: 0.6rem;
+    left: 0.7rem;
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    background: #F72E34;
+}
+
+.Walkthrough_box {
+    overflow-x: scroll;
+    white-space: nowrap;
+}

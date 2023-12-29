@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/fzcommon.css">
+    <link rel="stylesheet" href="./css/page.css">
+    <link rel="stylesheet" href="./css/reci.css">
+</head>
+
+<body>
+    <div class="dis_c row cont_zhanh marginlr">
+        <div class="col-xl-4 col-md-12 col-xs-12 back_w">
+            <!-- 价格经销商 -->
+            <div class="compentents back_w">
+                <div class="compentents_title">
+                    <div class="title_left"><span class="titleactive">蜂蜜</span>代理经销商</div>
+                </div>
+                <div class="compentents_title">
+                    <ul class="dealer">
+                        <li class="flexBet">
+                            <div style="text-align: center;">代理人/公司</div>
+                            <div style="text-align: center;">意向产品</div>
+                            <div style="text-align: center;">代理区域</div>
+                            <div style="text-align: center;">详细信息</div>
+                        </li>
+                        <li class="flexBet">
+                            <div><span>大壮</span></div>
+                            <div><span>广东省东莞市</span></div>
+                            <div><span>江西景福实业限公司</span></div>
+                            <div><span>咨询下蜂蜜的情况</span></div>
+                        </li>
+                        <li class="flexBet">
+                            <div><span>大壮</span></div>
+                            <div><span>广东省东莞市</span></div>
+                            <div><span>江西景福实业限公司</span></div>
+                            <div><span>咨询下蜂蜜的情况</span></div>
+                        </li>
+                        <li class="flexBet">
+                            <div><span>大壮</span></div>
+                            <div><span>广东省东莞市</span></div>
+                            <div><span>江西景福实业限公司</span></div>
+                            <div><span>咨询下蜂蜜的情况</span></div>
+                        </li>
+                        <li class="flexBet">
+                            <div><span>红薯粉</span></div>
+                            <div><span>广东省东莞市</span></div>
+                            <div><span>江西景福实业限公司</span></div>
+                            <div><span>咨询下蜂蜜的情况</span></div>
+                        </li>
+                        <li class="flexBet">
+                            <div><span>大壮</span></div>
+                            <div><span>广东省东莞市</span></div>
+                            <div><span>江西景福实业限公司</span></div>
+                            <div><span>咨询下蜂蜜的情况</span></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="text-align: center;margin:0px auto;">
+        <div id="pager" class="pager clearfix">
+        </div>
+    </div>
+    <script type="text/javascript" src="./scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="./scripts/jquery.z-pager.js"></script>
+    <script type="text/javascript" src="./scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./scripts/fzcommon.js"></script>
+    <script type="text/javascript">
+        $(function () {
+             $("#pager").zPager({
+                totalData: '@ViewBag.totalData',
+                pageData: 12,
+                htmlBox: $('#wraper'),
+                btnBool: true,
+                btnShow: false,
+                current: '@ViewBag.current',
+                ajaxSetData: false,
+                pageStep: 6,
+                url: "/product/@(ViewBag.TopType)-p{page}.html",
+             });
+        })
+    </script>
+</body>
+
+</html>

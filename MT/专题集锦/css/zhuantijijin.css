@@ -1,0 +1,251 @@
+.flexSb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flexcol {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexsta {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.cont_zhanh {
+    margin-top: 1.2rem !important;
+}
+
+.marginlr {
+    margin: 0 0.5rem;
+}
+
+.compentents {
+    padding: 0rem 0.8rem 1.6rem;
+    overflow: hidden;
+    margin-top: 0.5rem;
+}
+
+.compentents_title {
+    margin-top: 1rem;
+    position: relative;
+}
+
+.title_left {
+    color: #1A1A1A;
+    font-size: 1.6rem;
+    font-weight: bold;
+    position: relative;
+    padding-left: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.locate_poa {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.locate_poa>a {
+    font-weight: 400;
+    color: #999999 !important;
+}
+
+.title_left:before {
+    position: absolute;
+    left: 0;
+    top: 0.4rem;
+    content: ' ';
+    width: 0.4rem;
+    height: 1.6rem;
+    background-color: #F72E34;
+}
+
+.compentents_title .msg-text {
+    margin: 0.4rem 1.2rem 0rem;
+    color: #999999;
+}
+
+.msg-text {
+    margin-top: 0.5rem;
+    font-size: 1.4rem;
+    color: #333333;
+}
+
+.tuijianleft {
+    width: 42%;
+    height: 8rem;
+}
+
+.tuijianright {
+    width: 58%;
+    height: 8rem;
+    position: relative;
+    padding-left: 0.3rem;
+}
+
+.tuijianleft>a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.tuijianleft>a>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.tuijianright>p {
+    padding-left: 0.3rem;
+
+}
+
+.tuijianright>div {
+    padding-left: 0.3rem;
+}
+
+.topic_switching_tab>li {
+    width: 25%;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #333333 !important;
+}
+
+.tuijianright>p:nth-of-type(1) {
+    font-weight: 600;
+    color: #333333;
+    font-size: 1.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.tuijianright>p:nth-of-type(2) {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    color: #333333 !important;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.exponent {
+    position: absolute;
+    bottom: -1px;
+    left: 0.3rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 0.3rem;
+}
+
+.recommendation_box>li {
+    border: 1px solid #EEEEEE;
+    padding: 0.3rem;
+    box-sizing: border-box;
+}
+
+.recommendation_box>li:not(:first-child) {
+    margin-top: 1rem;
+}
+
+.Latest_topic>li {
+    padding-left: 2rem;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.Latest_topic>li>a {
+    font-weight: 600;
+    color: #333333;
+    font-size: 1.3rem;
+}
+
+.order {
+    position: absolute;
+    text-align: center;
+    top: 0.3rem;
+    left: 0;
+    width: 1.2rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    color: #FFFFFF;
+    background: #BAC0CA;
+    border-radius: 2px;
+}
+
+.Latest_topic>li:not(:first-child) {
+    margin-top: 1rem;
+}
+
+.Latest_topic>li:nth-of-type(1)>div {
+    background: #FE5A00 !important;
+}
+
+.Latest_topic>li:nth-of-type(2)>div {
+    background: #FE8402 !important;
+}
+
+.Latest_topic>li:nth-of-type(3)>div {
+    background: #FFAA14 !important;
+}
+
+.hotspot>li {
+    width: 49%;
+    border: 1px solid #EEEEEE;
+    padding: 0.3rem;
+    box-sizing: border-box;
+}
+
+.hotspot>li>a {
+    display: block;
+    width: 100%;
+}
+
+.hotspot>li>a:nth-of-type(1) {
+    height: 9rem;
+}
+
+.hotspot>li>a:nth-of-type(1)>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hotspot>li>a:nth-of-type(2)>p {
+    font-size: 1.3rem;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.hotspot>li>a:nth-of-type(3)>span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.hotspot>li:not(:first-child):not(:nth-child(2)) {
+    margin-top: 0.5rem;
+}
+.active_zhuanti{
+    border-bottom: 0.2rem solid #F72E34;
+}
