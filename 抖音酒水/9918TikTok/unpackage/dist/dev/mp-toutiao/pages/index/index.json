@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "酒水好帮手",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "diamond-column": "/components/diamondColumn/diamondColumn",
+    "swiper-bon": "/components/swiperBon/swiperBon"
+  }
+}

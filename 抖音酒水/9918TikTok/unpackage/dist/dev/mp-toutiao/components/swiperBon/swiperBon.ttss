@@ -1,0 +1,71 @@
+
+.box_swiper {
+	/* width: 395px; */
+	width: 100%;
+	overflow: hidden;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.timeShow {
+	color: #666666;
+}
+.flex {
+	width: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 24rpx;
+}
+.flex .gg {
+	width: 64rpx;
+	/* height: 32rpx; */
+	background: linear-gradient(90deg, #579BF3 0%, #316FEA 100%);
+	border-radius: 6px;
+	text-align: center;
+	color: #fff;
+	line-height: 32rpx;
+	margin-right: 15rpx;
+}
+.flex .contentText {
+	width: 420rpx;
+	color: #333333;
+	font-size: 24rpx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+._imgSearch {
+	width: 70rpx;
+	text-align: right;
+	padding-right: 20rpx;
+}
+.gg_content {
+	display: flex;
+	align-items: center;
+}
+.uni_swiper .swiperBon {
+	/* width: 690rpx; */
+	width: 100%;
+	overflow: hidden;
+	padding: 20rpx;
+	box-sizing: border-box;
+}
+.swiper {
+	height: 100rpx;
+}
+swiper-item {
+	width: 100%;
+}
+.uni_swiperBon {
+	height: 60rpx;
+}
+.uni_swiperBon .swiperBon .swiper_bon {
+	height: 50rpx !important;
+}
+.swiperBon ._img {
+	display: block;
+	height: 50rpx !important;
+	text-align: center;
+	width: 100%;
+}
+

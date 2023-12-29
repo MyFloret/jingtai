@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "快消好帮手",
+  "usingComponents": {
+    "swiper-bar": "/common/swiperBar/swiperBar",
+    "diamond-column": "/common/diamondColumn/diamondColumn",
+    "shop-list": "/common/shopList/shopList",
+    "swiper-bon": "/common/swiperBon/swiperBon"
+  }
+}

@@ -1,0 +1,34 @@
+
+.compontent_box {
+	padding: 0 19rpx 0 37rpx;
+}
+.box_title {
+	font-size: 38rpx;
+	font-weight: bold;
+	color: #333333;
+	padding: 39rpx 0;
+	text-align: center;
+}
+.box_main {
+	font-size: 28rpx;
+	color: #000;
+}
+.main {
+	text-indent: 2em;
+}
+.btnCard {
+	display: flex;
+	justify-content: center;
+	padding: 40rpx 0 80rpx;
+}
+.box_btn {
+	width: 270rpx;
+	height: 79rpx;
+	background: #FF6600;
+	border-radius: 39px;
+	font-size: 32rpx;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 79rpx;
+}
+

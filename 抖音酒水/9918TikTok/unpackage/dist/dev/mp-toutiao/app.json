@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/mountpage/mountpage",
+    "pages/program/pargram",
+    "pages/login/login",
+    "pages/moneyBar/moneyBar",
+    "pages/mine/mine",
+    "pages/shareBar/shareBar",
+    "pages/searchBar/searchBar",
+    "pages/shopDetail/shopDetail",
+    "pages/messageBoard/messageBoard",
+    "pages/footPrint/footPrint",
+    "pages/collectShop/collectShop",
+    "pages/aboutDetail/aboutDetail",
+    "pages/exhibitionDetail/exhibitionDetail",
+    "pages/settleIn/settleIn",
+    "pages/releaseMine/releaseMine"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTitleText": "酒水好帮手",
+    "navigationStyle": "default",
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#2282FA",
+    "mp-tuotiao": {
+      "usingComponents": {
+        "swiperBar": "plugin://swiperBar/swiperBar",
+        "checkbox": "plugin://checkbox/checkbox"
+      }
+    }
+  },
+  "component2": true,
+  "usingComponents": {}
+}

@@ -1,0 +1,110 @@
+
+.imgBj {
+	width: 100%;
+	height: 100%;
+}
+.login {
+	background-color: #F2F4FF;
+}
+.header_bar {
+	width: 100%;
+	height: 506rpx;
+	background: url(/static/img/loginBj.png) no-repeat;
+	background-size: 100% 100%;
+	box-sizing: border-box;
+}
+.title {
+	padding-top: 75rpx;
+	box-sizing: border-box;
+	padding-left: 86rpx;
+	font-size: 32rpx;
+	color: #FFFFFF;
+}
+.inputName {
+	width: 670rpx;
+	height: 756rpx;
+	padding: 0 52rpx 104rpx;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #fff;
+	box-sizing: border-box;
+	border-radius: 16px;
+	position: absolute;
+	top: 385rpx;
+	left: 40rpx;
+}
+.form-group {
+	display: flex;
+	align-items: center;
+	background-color: #F5F5F5;
+	border-radius: 8px;
+	width: 561.1rpx;
+	height: 87rpx;
+	color: #F5F5F5;
+	box-sizing: border-box;
+}
+.label {
+	color: #333;
+	padding-left: 36rpx;
+	width: 48rpx;
+	height: 48rpx;
+}
+.label ._img {
+	width: 100%;
+	height: 100%;
+}
+.input {
+	width: 440rpx;
+	height: 80rpx;
+	margin-left: 20rpx;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 28rpx;
+	padding: 0 10rpx;
+	border: 0;
+	color: #000;
+}
+.error {
+	font-size: 24rpx;
+	color: #f00;
+	margin-left: 20rpx;
+}
+.sub_btn {
+	padding-top: 40rpx;
+}
+.submit-btn {
+	width: 558rpx;
+	height: 100rpx;
+	background: linear-gradient(90deg, #4CC0FD, #098AFE);
+	box-shadow: 0px 5px 8px 0px rgba(55, 159, 255, 0.4);
+	color: #fff;
+	font-size: 32rpx;
+	border-radius: 40px;
+	line-height: 3 !important;
+	text-align: center;
+}
+.submit-btn:active {
+	background: linear-gradient(90deg, #579BF3 0%, #316FEA 100%);
+}
+.contentCard {
+	font-size: 36rpx;
+	font-weight: bold;
+	color: #000000;
+	padding-top: 40rpx;
+}
+.penBook {
+	display: flex;
+}
+.penBook .radio {
+	font-size: 30rpx;
+	font-weight: 400;
+	color: #333333;
+	line-height: 14rpx;
+	display: flex;
+	align-items: center;
+}
+.penBook .radio ._span {
+	color: #1F9CFE;
+}
+

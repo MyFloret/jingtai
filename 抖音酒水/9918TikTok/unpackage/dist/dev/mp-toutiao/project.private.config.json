@@ -1,0 +1,72 @@
+{
+    "setting": {
+        "urlCheck": false
+    },
+    "condition": {
+        "miniprogram": {
+            "current": -1,
+            "list": [
+                {
+                    "id": 1684979204151,
+                    "name": " pages/settleIn/settleIn",
+                    "pathName": "pages/settleIn/settleIn",
+                    "query": "",
+                    "scene": "990001",
+                    "launchFrom": "scan",
+                    "location": "qr_code",
+                    "mockUpdateType": "Noupdate"
+                },
+                {
+                    "id": 1685011350299,
+                    "name": "pages/index/index",
+                    "pathName": "pages/releaseMine/releaseMine",
+                    "query": "",
+                    "scene": "990001",
+                    "launchFrom": "scan",
+                    "location": "qr_code",
+                    "mockUpdateType": "Noupdate"
+                },
+                {
+                    "id": 1688086733418,
+                    "name": "pages/shopDetail/shopDetail",
+                    "pathName": "pages/shopDetail/shopDetail",
+                    "query": "",
+                    "scene": "990001",
+                    "launchFrom": "scan",
+                    "location": "qr_code",
+                    "mockUpdateType": "Noupdate"
+                },
+                {
+                    "id": 1695259746113,
+                    "name": "pages/exhibitionDetail/exhibitionDetail",
+                    "pathName": "pages/exhibitionDetail/exhibitionDetail",
+                    "query": "id=789",
+                    "scene": "011001",
+                    "launchFrom": "search_used_list",
+                    "location": "",
+                    "mockUpdateType": "Noupdate"
+                },
+                {
+                    "id": 1701655339069,
+                    "name": "pages/moneyBar/moneyBar",
+                    "pathName": "pages/moneyBar/moneyBar",
+                    "query": "",
+                    "scene": "990001",
+                    "launchFrom": "scan",
+                    "location": "qr_code",
+                    "mockUpdateType": "Noupdate"
+                },
+                {
+                    "id": 1701655384855,
+                    "name": "pages/mountpage/mountpage",
+                    "pathName": "pages/mountpage/mountpage",
+                    "query": "",
+                    "scene": "990001",
+                    "launchFrom": "scan",
+                    "location": "qr_code",
+                    "mockUpdateType": "Noupdate"
+                }
+            ]
+        }
+    }
+}

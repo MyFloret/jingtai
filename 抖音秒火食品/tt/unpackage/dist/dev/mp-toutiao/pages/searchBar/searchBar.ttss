@@ -1,0 +1,146 @@
+
+._imgSearch {
+	width: 70rpx;
+	text-align: right;
+	padding-right: 20rpx;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.search_bar {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 14rpx 20rpx 12rpx;
+	background-color: #2282FA;
+}
+.search_bar ._img {
+	width: 31rpx;
+	height: 31rpx;
+}
+.search_bar .search {
+	align-items: center;
+	display: flex;
+	width: 650rpx;
+	height: 64rpx;
+	background: #fff;
+	/* opacity: 0.5; */
+	border-radius: 24px;
+}
+.search_bar .search input {
+	font-size: 28rpx;
+	width: 428rpx;
+	color: #000;
+}
+.search_bar .search ._img {
+	width: 39rpx;
+	height: 39rpx;
+}
+.search_bar .jia {
+	margin-right: 4rpx;
+	width: 40rpx;
+	height: 40rpx;
+}
+.dropdown-container {
+	position: relative;
+	display: flex;
+	align-items: center
+}
+.dropdown-header {
+	display: flex;
+	align-items: center;
+	padding: 0 20rpx;
+}
+.dropdown-header .titleContent {
+	font-size: 26rpx;
+	color: #999;
+	margin-right: 20rpx;
+}
+.dropdown-header ._span {
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #999;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}
+.dropdown-list {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+	max-height: 200px;
+	overflow-y: auto;
+	z-index: 1;
+	font-size: 30rpx;
+	padding: 0 20rpx;
+	background-color: #FFFFFF;
+}
+.dropdown-list .li {
+	padding: 10rpx 0;
+	cursor: pointer;
+}
+.dropdown-list .li:hover {
+	color: #f00;
+}
+.compontents {
+	background-color: #FFFFFF;
+	padding: 0 19rpx;
+}
+.compontents .common .common_cont {
+	padding: 29rpx 10rpx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.compontents .common .common_cont .common_left {
+	font-size: 34rpx;
+	font-weight: 500;
+	color: #333333;
+}
+.compontents .common .common_cont .common_right {
+	display: flex;
+	align-items: center;
+}
+.compontents .common .common_cont .common_right ._img {
+	width: 28rpx;
+	height: 28rpx;
+}
+.compontents .common .common_cont .common_right .commonTitle {
+	font-size: 28rpx;
+	font-weight: 500;
+	color: #999999;
+	margin-left: 8rpx;
+}
+.compontents .common .common_list {
+	display: flex;
+	flex-wrap: wrap;
+}
+.compontents .common .common_list .listType {
+	margin-right: 26rpx;
+	/* width: 140rpx; */
+	padding: 0 20rpx;
+	height: 54rpx;
+	line-height: 54rpx;
+	background: #F6F6F6;
+	border-radius: 6px;
+	text-align: center;
+	font-size: 28rpx;
+	color: #6B6B6B;
+	margin-bottom: 10rpx;
+}
+.display {
+	display: flex;
+	align-items: center;
+}
+.display ._img {
+	width: 32rpx;
+	height: 32rpx;
+	margin-left: 10rpx;
+}
+.bottom {
+	padding-bottom: 30rpx;
+}
+

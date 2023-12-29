@@ -1,0 +1,9 @@
+
+#app {
+	background-color: #F2F4FF;
+	scroll-behavior: smooth;
+}
+button::after {
+	border: 0;
+}
+

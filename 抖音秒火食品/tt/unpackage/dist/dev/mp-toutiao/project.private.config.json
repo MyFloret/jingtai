@@ -1,0 +1,104 @@
+{
+    "setting": {
+        "urlCheck": false,
+        "autoCompile": true,
+        "IDEPreviewHotRestartCache": true
+    },
+    "condition": {
+        "miniprogram": {
+            "current": -1,
+            "list": [
+                {
+                    "id": 1685065799124,
+                    "name": "pages/index/index",
+                    "pathName": "pages/settleIn/settleIn",
+                    "query": "",
+                    "scene": "990001",
+                    "launchFrom": "scan",
+                    "location": "qr_code",
+                    "mockUpdateType": "Noupdate"
+                },
+                {
+                    "id": 1683956710748,
+                    "name": "pages/shopDetail/shopDetail",
+                    "pathName": "pages/shopDetail/shopDetail",
+                    "query": "id=595622&name=%25E5%259D%2582%25E4%25B8%258A%25E7%25A7%258B%25E7%2594%25B0%25E5%25B7%259D%25E5%2591%25B3%25E8%25BE%25A3%25E6%259D%25A1%25E9%2594%2585%25E5%25B7%25B480g&__id__=2",
+                    "scene": "990001",
+                    "launchFrom": "scan",
+                    "location": "qr_code",
+                    "mockUpdateType": "Noupdate"
+                },
+                {
+                    "id": 1684136917315,
+                    "name": "pages/index/search",
+                    "pathName": "pages/searchBar/searchBar",
+                    "query": "",
+                    "scene": "990001",
+                    "launchFrom": "scan",
+                    "location": "qr_code",
+                    "mockUpdateType": "Noupdate"
+                },
+                {
+                    "id": 1684306853625,
+                    "name": " pages/mine/mine",
+                    "pathName": "pages/footPrint/footPrint",
+                    "query": "",
+                    "scene": "011001",
+                    "launchFrom": "search_used_list",
+                    "location": "",
+                    "mockUpdateType": "Noupdate"
+                },
+                {
+                    "id": 1684308630143,
+                    "name": " pages/exhibitionDetail/exhibitionDetail",
+                    "pathName": "pages/exhibitionDetail/exhibitionDetail",
+                    "query": "id=1139",
+                    "scene": "011001",
+                    "launchFrom": "search_used_list",
+                    "location": "",
+                    "mockUpdateType": "Noupdate"
+                },
+                {
+                    "id": 1684484599634,
+                    "name": "pages/collectShop/collectShop",
+                    "pathName": "pages/collectShop/collectShop",
+                    "query": "__id__=1",
+                    "scene": "990001",
+                    "launchFrom": "scan",
+                    "location": "qr_code",
+                    "mockUpdateType": "Noupdate"
+                },
+                {
+                    "id": 1694682227841,
+                    "name": "pages/exhibitionDetail/exhibitionDetail",
+                    "pathName": "pages/exhibitionDetail/exhibitionDetail",
+                    "query": "id=1104",
+                    "scene": "011001",
+                    "launchFrom": "search_used_list",
+                    "location": "",
+                    "mockUpdateType": "Noupdate"
+                },
+                {
+                    "id": 1695104170617,
+                    "name": "pages/program/pargram",
+                    "pathName": "pages/program/pargram",
+                    "query": "id=1114",
+                    "scene": "990001",
+                    "launchFrom": "scan",
+                    "location": "qr_code",
+                    "mockUpdateType": "Noupdate"
+                },
+                {
+                    "id": 1700881603600,
+                    "name": "pages/mountpage/mountpage",
+                    "pathName": "pages/mountpage/mountpage",
+                    "query": "",
+                    "scene": "990001",
+                    "launchFrom": "scan",
+                    "location": "qr_code",
+                    "mockUpdateType": "Noupdate"
+                }
+            ]
+        }
+    }
+}

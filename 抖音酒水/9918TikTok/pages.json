@@ -1,0 +1,221 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+		{
+			"path": "pages/index/index",
+
+			"style": {
+				"navigationBarTitleText": "酒水好帮手",
+				"enablePullDownRefresh": true
+			},
+			"config": {
+				"share": {
+					"showShareMenu": true
+				}
+			}
+		}, {
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			},
+			"config": {
+				"share": {
+					"showShareMenu": true
+				}
+			}
+		},
+		{
+			"path": "pages/mountpage/mountpage",
+			"style": {
+				"navigationBarTitleText": "酒水好帮手",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ff4102"  
+			},
+			"config": {
+				"share": {
+					"showShareMenu": true
+				}
+			}
+		
+		}, 
+{
+		"path": "pages/program/pargram",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		},
+		"config": {
+			"share": {
+				"showShareMenu": true
+			}
+		}
+	},
+
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "入驻申请酒水好帮手",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#1F79F6"
+			},
+			"config": {
+				"share": {
+					"showShareMenu": true
+				}
+			}
+
+		},
+		{
+			"path": "pages/moneyBar/moneyBar",
+			"style": {
+				"navigationBarTitleText": "服务协议",
+				"enablePullDownRefresh": false
+			},
+			"config": {
+				"share": {
+					"showShareMenu": true
+				}
+			}
+
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"enablePullDownRefresh": false
+			},
+			"config": {
+				"share": {
+					"showShareMenu": true
+				}
+			}
+
+		},
+		{
+			"path": "pages/shareBar/shareBar",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			},
+			"config": {
+				"share": {
+					"showShareMenu": true
+				}
+			}
+
+		},
+		{
+			"path": "pages/searchBar/searchBar",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"enablePullDownRefresh": false
+			},
+			"config": {
+				"share": {
+					"showShareMenu": true
+				}
+			}
+
+		},
+
+
+
+
+		{
+			"path": "pages/shopDetail/shopDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			},
+			"config": {
+				"share": {
+					"showShareMenu": true
+				}
+			}
+
+		}, {
+			"path": "pages/messageBoard/messageBoard",
+			"style": {
+				"navigationBarTitleText": "我的留言",
+				"enablePullDownRefresh": false
+			},
+			"config": {
+				"share": {
+					"showShareMenu": true
+				}
+			}
+
+		}, {
+			"path": "pages/footPrint/footPrint",
+			"style": {
+				"navigationBarTitleText": "我的足迹",
+				"enablePullDownRefresh": false
+			},
+			"config": {
+				"share": {
+					"showShareMenu": true
+				}
+			}
+
+		}, {
+			"path": "pages/collectShop/collectShop",
+			"style": {
+				"navigationBarTitleText": "店铺收藏",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/aboutDetail/aboutDetail",
+			"style": {
+				"navigationBarTitleText": "关于酒水好帮手",
+				"enablePullDownRefresh": false
+			},
+			"config": {
+				"share": {
+					"showShareMenu": true
+				}
+			}
+
+		}, {
+			"path": "pages/exhibitionDetail/exhibitionDetail",
+			"style": {
+				"navigationBarTitleText": "展会详情",
+				"enablePullDownRefresh": false
+			},
+			"config": {
+				"share": {
+					"showShareMenu": true
+				}
+			}
+
+		}, {
+			"path": "pages/settleIn/settleIn",
+			"style": {
+				"navigationBarTitleText": "发布需求",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/releaseMine/releaseMine",
+			"style": {
+				"navigationBarTitleText": "我的发布",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTitleText": "酒水好帮手",
+		"navigationStyle": "default",
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#2282FA",
+		// "backgroundColor": "#F8F8F8",
+		"mp-tuotiao": {
+			"usingComponents": {
+				"swiperBar": "plugin://swiperBar/swiperBar",
+				"checkbox": "plugin://checkbox/checkbox"
+			}
+		}
+	}
+}

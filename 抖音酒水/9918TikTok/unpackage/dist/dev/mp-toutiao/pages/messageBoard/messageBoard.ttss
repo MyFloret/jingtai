@@ -1,0 +1,53 @@
+
+.compontent_box {
+	width: 100%;
+	height: 100%;
+}
+.compontent_card {
+	padding: 29rpx 26rpx 24rpx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 28rpx;
+	border-bottom: 1px solid #DEDEDE;
+}
+.card_header {
+	color: #fff;
+	background-color: #66A9FF;
+}
+.card_right {
+	display: flex;
+}
+.card_tiem {
+	margin-right: 170rpx;
+}
+.card_time {
+	margin-right: 86rpx;
+}
+.card_cp {
+	width: 300rpx;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.red {
+	color: #CC3333;
+}
+.box_bottomShop {
+	width: 100%;
+	justify-content: center;
+	display: flex;
+	margin-top: 200rpx;
+	flex-direction: column;
+	align-items: center;
+}
+.box_bottomShop image {
+	width: 317rpx;
+}
+.box_bottomShop .title {
+	font-size: 32rpx;
+	color: #CCCCCC;
+	text-align: center;
+}
+
