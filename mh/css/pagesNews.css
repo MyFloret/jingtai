@@ -1,0 +1,191 @@
+﻿.pager {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center
+}
+
+.pager>a {
+    color: #333;
+    font-weight: 400;
+    font-size: 16px
+}
+
+#pagercontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+a.disabled {
+    color: #999;
+    cursor: not-allowed
+}
+
+.none_border {
+    margin-left: 10px
+}
+
+.input_page {
+    margin-left: 10px
+}
+
+.input_page>input {
+    width: 49px;
+    height: 30px;
+    border: 1px solid #c8c8c8
+}
+
+.buttonGo {
+    width: 53px;
+    height: 29px;
+    background: #ff4000;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 14px;
+    border: none;
+    color: #fff;
+    margin-left: 10px
+}
+
+.input_page>input.foucs {
+    list-style: none
+}
+
+.current {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: rgba(255,64,0,.1);
+    border: 1px solid #ff4000;
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #e12012;
+    margin-left: 10px
+}
+
+#pager>a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #c8c8c8;
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #666;
+    margin-left: 10px
+}
+
+.pg-prev {
+    width: 68px!important;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #c8c8c8;
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #666
+}
+
+.pg-next {
+    width: 68px!important;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #c8c8c8;
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #666
+}
+
+.pagesGo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center
+}
+
+.pagesGo>div:nth-of-type(2) {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center
+}
+
+.pagesJq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px
+}
+
+.pagesGo>div {
+    margin-left: 10px
+}
+
+.pagesGo>div>input {
+    width: 49px;
+    height: 30px;
+    background: #fff;
+    border: 1px solid #c8c8c8;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+.goSure {
+    margin-left: 10px;
+    width: 53px;
+    height: 29px;
+    line-height: 29px;
+    text-align: center;
+    background: #ff4000;
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #fff
+}
+
+.els {
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #c8c8c8;
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #666;
+    margin-left: 10px
+}
+
+.pagesGo>div>input:focus {
+    outline: 0
+}
+
+.gosure {
+    margin-left: 10px;
+    width: 53px;
+    height: 29px;
+    line-height: 29px;
+    text-align: center;
+    background: #ff4000;
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #fff
+}
