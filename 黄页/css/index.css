@@ -1,0 +1,972 @@
+body {
+    background: #f2f2f2;
+    font-family: Microsoft YaHei;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #ffffff;
+}
+
+.navsBox {
+    width: 1200px;
+    height: 67px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.navLeftS {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navLeftS>a {
+    display: block;
+    width: 166px;
+    height: 38px;
+    position: relative;
+
+}
+
+.navLeftS>a>img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.navLeftS>a::before {
+    position: absolute;
+    content: "";
+    top: 7px;
+    right: -9px;
+    width: 1px;
+    height: 29px;
+    background: #CCCCCC;
+}
+
+.navRightS {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 4px;
+}
+
+.navRightS>p {
+    font-size: 16px;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #282828;
+}
+
+.navRightS>div {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.attestatioS>div {
+    font-size: 12px;
+    font-family: PingFang SC;
+    font-weight: bold;
+    color: #CA6825;
+}
+
+.attestatioS>i {
+    display: block;
+    width: 65px;
+    height: 17px;
+    background: url(../images/business_certification.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 7px;
+    margin-top: 2px;
+}
+
+.gongshang {
+    margin-left: 9px;
+}
+
+.offsideS {
+    display: flex;
+    align-items: center;
+}
+
+.offsideS>input {
+    width: 534px;
+    height: 36px;
+    border: 2px solid #FF4000;
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+
+.searchOff {
+    width: 60px;
+    height: 36px;
+    background: #FF4000;
+    font-size: 16px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.companyClass {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/topbac.png);
+    background-repeat: round;
+    height: 142px;
+
+}
+
+.companyClass>div {
+    width: 1200px;
+    margin-top: 14px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.companyClass>div>img {
+    display: block;
+    width: 130px;
+    height: 86px;
+    object-fit: contain;
+}
+
+.companyClass>div>div>p {
+    font-size: 28px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.companyClass>div>div {
+    height: 86px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.companyClass>div>div>div {
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 6px;
+}
+
+.smallNav {
+    width: 100%;
+    height: 40px;
+    background: #E73A00;
+    display: flex;
+    justify-content: center;
+}
+
+.smallNav>div {
+    width: 1200px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.smallNav>div>div {
+    width: 119px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.activeNac {
+    background: #FF5700;
+    font-weight: bold !important;
+}
+
+.contentBox {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 24px;
+    justify-content: space-between;
+}
+
+.contentLeft {
+    width: 902px;
+}
+
+.t20 {
+    margin-top: 20px;
+}
+
+.companyDetails {
+    width: 902px;
+    background: linear-gradient(180deg, #FFE7D5 0%, #FFFFFF 19%, #FFFFFF 100%);
+    overflow: hidden;
+    padding-bottom: 25px;
+}
+
+.companyMsg {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.companyMsg>i {
+    background: url(../images/jianjie.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block;
+    width: 13px;
+    height: 13px;
+}
+
+.gongsijj {
+    font-size: 24px;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #000000;
+    margin-left: 8px;
+}
+
+.Profile {
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: 400;
+    font-style: italic;
+    color: #CCCCCC;
+    margin-left: 8px;
+}
+
+.imglogo {
+    width: 261px;
+    height: 174px;
+    border: 2px solid #0000001f;
+    margin-right: 15px;
+}
+
+.imglogo>img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.imglogo {
+    float: left;
+}
+
+.imgContenta {
+    padding: 0 20px 0 20px;
+    margin-top: 30px;
+}
+
+.IndustryBox {
+    padding: 0 20px 0 20px;
+    margin-top: 30px;
+}
+
+td {
+    border: 1px solid #e5e5e5;
+}
+
+.topYP>p {
+    text-indent: 2rem;
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #666666;
+    line-height: 26px;
+}
+
+.tdwidth {
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.wdhds {
+    display: block;
+    width: 309px;
+    height: 50px;
+    line-height: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 18px;
+}
+
+.endlenght {
+    line-height: 30px;
+    padding: 0px 15px;
+    padding-top: 5px;
+}
+
+
+.Industrys {
+    background: #FFF !important;
+    margin-top: 20px;
+}
+
+.productShow {
+    padding: 0 20px 0 20px;
+    margin-top: 30px;
+}
+
+.productShow>ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.productShow>ul>li {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.productShow>ul>li>a {
+    display: block;
+    width: 200px;
+}
+
+.productShow>ul>li>a:nth-of-type(1) {
+    border: 1px solid #0000001a
+}
+
+.productShow>ul>li>a>img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.productShow>ul>li>a:nth-of-type(2) {
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #666666;
+    display: flex;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 7px;
+}
+
+.productShow>ul>li:not(:nth-child(1)):not(:nth-child(5)):not(:nth-child(9)):not(:nth-child(13)):not(:nth-child(17)):not(:nth-child(21)):not(:nth-child(25)) {
+    margin-left: 19px;
+}
+
+.productShow>ul>li:not(:nth-child(1)):not(:nth-child(2)):not(:nth-child(3)):not(:nth-child(4)) {
+    margin-top: 13px;
+}
+
+.content_cardType {
+    display: flex;
+}
+
+.liuyanCont2 .clearfix>span:nth-of-type(1) {
+    color: #f02926;
+    font-weight: 400;
+    font-size: 16px;
+    vertical-align: top;
+    line-height: 44px;
+}
+
+.clearfix>span:nth-of-type(2) {
+    color: #1a1a1a;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 44px;
+}
+
+#AgentManNamePro {
+    width: 340px;
+    height: 36px !important;
+    background: #fff;
+    border: 1px solid #d2d2d2;
+    border-radius: 3px;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+}
+
+.liuyanCont2 {
+    margin-left: 35px;
+}
+
+.liuyanCont2>ul>li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 45px;
+
+}
+textarea:focus {
+    outline: none;
+    border: 1px solid black;
+  }
+  
+.liuyanCont2>ul>li>select {
+    width: 103px;
+    height: 40px;
+    border: 1px solid #d2d2d2;
+    border-radius: 3px;
+    background: #fff;
+    color: #999;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 44px;
+    padding: 0px 12px;
+}
+
+input::placeholder {
+    color: #999;
+    /* 设置默认的占位符文字颜色 */
+}
+
+input:focus {
+    outline: none;
+    /* 取消默认的聚焦边框 */
+    border: 1px solid #000;
+    /* 添加您希望应用于获取焦点时的边框样式 */
+    color: black;
+}
+
+
+.liuyanCont2>ul>li>textarea {
+    margin-top: 5px;
+    margin-left: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    width: 331px;
+    height: 60px;
+    border: 1px solid #d2d2d2;
+    border-radius: 3px;
+    background: #fff;
+    font-weight: 400;
+    font-family: 'Microsoft YaHei';
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.query_time .title_name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    line-height: 24px;
+}
+
+.query_time .title_btnCard {
+    display: inline-block;
+    width: 71px;
+    height: 23px;
+    background: #36c;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 23px;
+    text-align: center;
+    top: 0px;
+    position: absolute;
+    right: -113px;
+}
+
+.query_time {
+    position: relative;
+    width: 292px;
+    height: 78px;
+}
+
+.down_cardcom {
+    margin-top: 15px;
+    margin-left: 12px;
+    width: 410px;
+    box-sizing: border-box;
+    border: 1px solid #FFE4E6;
+    background: linear-gradient(180deg, #FFE7D5 0%, #FFFFFF 19%, #FFFFFF 100%);
+}
+
+.headline {
+    margin: 0 21px 0 17px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 35px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.compontentCard {
+    padding: 19px 20px 19px;
+}
+
+.headline>span {
+    color: #f02926;
+    margin-left: 5px;
+}
+
+.card-options li {
+    line-height: 26px;
+    font-size: 16px;
+}
+
+.btnClass {
+    display: block !important;
+    width: 99px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background: linear-gradient(235deg, #FF4000, #FF6C00);
+    border-radius: 6px;
+    margin-left: 5px;
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+#weixinCard {
+    height: 36px !important;
+    background: #fff;
+    border: 1px solid #d2d2d2;
+    border-radius: 3px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+    width: 236px;
+}
+
+#AgenWechat {
+    height: 36px !important;
+    background: #fff;
+    border: 1px solid #d2d2d2;
+    border-radius: 3px;
+    padding-left: 15px;
+    font-size: 16px;
+    width: 220px;
+}
+select:focus {
+    outline: none;
+  }
+
+#AgentMobilePro {
+    width: 340px;
+    height: 36px !important;
+    background: #fff;
+    border: 1px solid #d2d2d2;
+    border-radius: 3px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+}
+
+.hongxong {
+    color: #f02926;
+    font-weight: 400;
+    font-size: 16px;
+    vertical-align: top;
+}
+
+.flexCard {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.maleS {
+    margin-left: 11px;
+}
+
+.maleWx {
+    margin-left: 38px;
+}
+
+.disbase {
+    align-items: baseline !important;
+    margin-left: 1px;
+}
+
+.selectS>select:not(:nth-of-type(1)) {
+    margin-left: 10px;
+}
+
+.query_time .title_pCard {
+    font-size: 14px;
+    font-weight: 400;
+    color: #999;
+    line-height: 18px;
+    position: absolute;
+    width: 370px;
+    margin-top: 8px;
+}
+
+.kuaijieliuyanjian {
+    width: 400px;
+    margin-left: 14px;
+}
+
+.elsego {
+    margin: 0 auto;
+    width: 755px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.elsego>.clearfix {
+    width: 128px;
+}
+
+.elsego>div {
+    display: inline-block !important;
+    vertical-align: top !important;
+}
+
+.elsego>.clearfix>input,
+.elsego>.clearfix>span {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.elsego>.clearfix>input {
+    margin-top: 19px;
+    width: 13px;
+    height: 13px;
+}
+
+.elsego>div:nth-of-type(3) {
+    width: 485px;
+    font-size: 14px;
+}
+
+.liuyanS {
+    width: 167px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: linear-gradient(235deg, #FF4000, #FF6C00);
+    border-radius: 20px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.contentRight {
+    width: 280px;
+}
+
+.comapnyJJ {
+    width: 280px;
+    height: 226px;
+    background: #FFFFFF;
+    overflow: hidden;
+}
+
+.titleConapny {
+    font-size: 18px;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #333333;
+    padding: 0px 15px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 23px;
+}
+
+.yraesImg {
+    position: relative;
+    padding-top: 1px;
+    width: 35px;
+    height: 17px;
+    background-image: url(../images/cxin.png);
+    padding-left: 18px;
+    color: #ca6825;
+    font-size: 12px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.whyYear {
+    position: absolute;
+    top: 0;
+    left: 16px;
+    width: 33px;
+    height: 17px;
+    text-align: center;
+    padding-top: 1px;
+}
+
+.yearsGsrz {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 15px;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+
+.yearsGsrz>i {
+    display: block;
+    width: 65px;
+    height: 17px;
+    background: url(../images/business_certification.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 7px;
+}
+
+.qrcode {
+    margin-top: 1px !important;
+    margin-left: 10px !important;
+    width: 13px !important;
+    height: 13px !important;
+    background-image: url(../images/orcode.png) !important;
+    cursor: pointer !important;
+    background-repeat: no-repeat !important;
+    position: relative;
+}
+
+#qrcode {
+    position: absolute;
+    top: 16px;
+    left: 0px;
+    display: none;
+    width: 110px;
+    height: 130px;
+    border: 1px solid #0000001f;
+}
+
+.qrcode:hover #qrcode {
+    display: block;
+}
+
+#qrcode>span {
+    position: absolute;
+    bottom: 3px;
+    display: block;
+    color: #666;
+    font-size: 12px;
+    left: 7px;
+}
+
+#qrcode>img {
+    display: block;
+    margin: 8px auto;
+    width: 100px;
+    height: 100px;
+}
+
+.attestationBox {
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #666666;
+    padding: 0px 15px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    position: relative;
+}
+
+.attestationBox::before {
+    position: absolute;
+    content: "";
+    top: -9px;
+    left: 0;
+    width: 280px;
+    height: 1px;
+    background: #E5E5E5;
+}
+
+.userates {
+    padding: 0px 15px;
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #666666;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.phone1 {
+    width: 13px;
+    height: 19px;
+    display: block;
+    background: url(../images/phone1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.phone2 {
+    width: 13px;
+    height: 19px;
+    display: block;
+    background: url(../images/phone2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.userates>i:not(:nth-of-type(1)) {
+    margin-left: 5px;
+}
+
+.yyzz1 {
+    width: 27px;
+    height: 19px;
+    display: block;
+    background: url(../images/yy1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.zycps {
+    padding: 0px 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #666666;
+    margin-top: 10px;
+}
+
+.reledtj {
+    width: 280px;
+    background: #FFFFFF;
+    overflow: hidden;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.xgtjS {
+    font-size: 20px;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #1A1A1A;
+    padding: 14px;
+    position: relative;
+}
+
+.xgtjS::before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 280px;
+    height: 1px;
+    background: #E5E5E5;
+}
+
+.ulrele {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.ulrele>li>a {
+    display: block;
+}
+
+.ulrele>li>a:nth-of-type(1) {
+    width: 240px;
+    height: 240px;
+}
+
+.ulrele>li>a:nth-of-type(1)>img {
+    width: 100%;
+    height: 100%;
+}
+
+.ulrele>li>a:nth-of-type(2) {
+    padding: 0px 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #666666;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.ulrele>li:not(:nth-of-type(1)) {
+    margin-top: 20px;
+}
+
+.infomater {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.infomater>li {
+    width: 100%;
+    padding: 0px 15px 0px 30px;
+    box-sizing: border-box;
+    line-height: 32px;
+    position: relative;
+}
+
+.infomater>li::before {
+    position: absolute;
+    content: "";
+    top: 15px;
+    left: 17px;
+    width: 4px;
+    height: 4px;
+    background: #FF1A0C;
+    border-radius: 50%;
+}
+
+.infomater>li>a {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #666666;
+    line-height: 32px;
+}
