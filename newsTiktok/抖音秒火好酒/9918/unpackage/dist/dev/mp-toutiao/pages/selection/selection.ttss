@@ -1,0 +1,32 @@
+
+.tab-bar_t.data-v-fa24a540{display:flex;justify-content:space-between}
+.tab_t.data-v-fa24a540{padding:17rpx 40rpx;cursor:pointer;font-size:32rpx}
+.tab_t.active_t.data-v-fa24a540{background:linear-gradient(90deg,#ffb930,#f60) no-repeat right bottom;background-size:100% 6rpx;border-radius:3px;font-weight:700;color:#f60;font-size:34rpx}
+.tab-content_t.data-v-fa24a540{margin-top:10px;height:100%}
+.tab-content_t>view.data-v-fa24a540{height:100%}
+.shop_p_.data-v-fa24a540{height:100vh;padding:20rpx;box-sizing:border-box}
+.shop_p_t.data-v-fa24a540{height:100vh;padding:20rpx;box-sizing:border-box}
+.shop_p_ty.data-v-fa24a540{height:100vh;padding:20rpx;box-sizing:border-box}
+.shop_p_type.data-v-fa24a540{height:100vh;padding:20rpx;box-sizing:border-box}
+.shop_type.data-v-fa24a540{padding:20rpx 18rpx;color:#fff;display:flex;justify-content:space-between;background-color:#fff;border-radius:6px;margin-bottom:20rpx}
+.shop_type.data-v-fa24a540:last-child{margin-bottom:120rpx}
+.shop_type .shop_img.data-v-fa24a540{width:220rpx;height:220rpx;border-radius:6px}
+.shop_type .shop_img ._img.data-v-fa24a540{width:220rpx;height:220rpx;background:#ece6e6;border-radius:6px;border:1px solid rgb(241 241 241)}
+.shop_type .shop_cont.data-v-fa24a540{width:440rpx;height:100%}
+.shop_type .shop_cont .shop_title.data-v-fa24a540{font-size:36rpx;color:#333;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.shop_type .shop_cont .shop_fl.data-v-fa24a540{font-size:26rpx;color:#666;padding:10rpx 0}
+.shop_type .shop_gg.data-v-fa24a540{font-size:26rpx;color:#999;padding:0rpx 0 10rpx}
+.shop_type .shop_cont .shop_time.data-v-fa24a540{display:flex;margin-top:5rpx}
+.shop_type .shop_cont .shop_time .time.data-v-fa24a540{display:flex;justify-content:center;margin-right:80rpx}
+.shop_type .shop_cont .shop_time .time ._img.data-v-fa24a540{width:32rpx;height:32rpx}
+.shop_type .shop_cont .shop_time .time .time_show.data-v-fa24a540{font-size:26rpx;color:#999;margin-left:12rpx}
+.shop_type .shop_people.data-v-fa24a540{display:flex}
+.shop_type .shop_people ._img.data-v-fa24a540{width:32rpx;height:32rpx}
+.shop_type .eyes.data-v-fa24a540{margin-left:12rpx;font-size:26rpx;color:#999}
+.shop_type .shop_zx.data-v-fa24a540{display:flex;justify-content:flex-end;align-items:center;margin-top:20rpx}
+.shop_type .shop_address.data-v-fa24a540{font-size:24rpx;color:#666}
+.shop_type .shop_change.data-v-fa24a540{display:flex;background:linear-gradient(90deg,#ffb930,#f60);border-radius:6px;padding:6rpx 10rpx;margin-left:6rpx}
+.shop_type .shop_change ._img.data-v-fa24a540{width:32rpx;height:32rpx}
+.shop_type .shop_change .change.data-v-fa24a540{font-size:24rpx;color:#fff;margin-left:6rpx}
+
+

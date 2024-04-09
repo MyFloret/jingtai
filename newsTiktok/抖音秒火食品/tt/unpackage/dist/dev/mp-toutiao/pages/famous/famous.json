@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "名企展示",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "search-go": "/components/search/search"
+  }
+}

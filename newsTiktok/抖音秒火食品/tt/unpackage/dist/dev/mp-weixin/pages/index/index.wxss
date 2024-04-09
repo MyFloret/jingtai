@@ -1,0 +1,250 @@
+
+.uni_swiper {
+	/* width: 690rpx; */
+	width: 100%;
+	overflow: hidden;
+	padding: 14rpx 20rpx;
+	box-sizing: border-box;
+}
+.swiper {
+	height: 300rpx;
+}
+swiper-item {
+	width: 100%;
+}
+swiper-item ._img {
+	display: block;
+	height: 300rpx;
+	line-height: 300rpx;
+	text-align: center;
+	width: 100%;
+}
+
+
+.tab {
+	display: flex;
+	justify-content: space-around;
+}
+.tab-item {
+	padding: 10px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	        user-select: none;
+}
+.tab-item.active {
+	color: #f00;
+}
+.tab-content {
+	margin-top: 10px;
+}
+
+
+.diamond {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 10rpx 20rpx;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.dl {
+	width: 160rpx;
+	height: 160rpx;
+	padding: 5rpx 15rpx;
+	box-sizing: border-box;
+}
+.dt {
+	width: 120rpx;
+	height: 120rpx;
+}
+.dt ._img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+.dd .p {
+	text-align: center;
+	font-size: 28rpx;
+	color: #000;
+}
+
+
+.flex {
+	display: flex;
+	/* justify-content: space-between; */
+	font-size: 24rpx;
+}
+.flex .gg {
+	width: 64rpx;
+	/* height: 32rpx; */
+	background: linear-gradient(90deg, #579BF3 0%, #316FEA 100%);
+	border-radius: 6px;
+	text-align: center;
+	color: #fff;
+	line-height: 32rpx;
+	margin-right: 15rpx;
+}
+.flex .contentText {
+	color: #333333;
+	font-size: 24rpx;
+	margin-right: 78rpx;
+}
+.uni_swiper {
+	/* width: 690rpx; */
+	width: 100%;
+	overflow: hidden;
+	padding: 20rpx;
+	box-sizing: border-box;
+}
+.swiper {
+	height: 100rpx;
+}
+swiper-item {
+	width: 100%;
+}
+swiper {
+	height: 50rpx;
+}
+swiper-item ._img {
+	display: block;
+	height: 100rpx;
+	text-align: center;
+	width: 100%;
+}
+
+
+.notice.data-v-57280228 {
+	background: #FFFFFF;
+	border-radius: 6px;
+	margin: 14rpx 20rpx 0;
+	z-index: 999;
+}
+.notice .notice_con.data-v-57280228 {
+	width: 100%;
+	height: 64rpx;
+}
+.tab-container.data-v-57280228 {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+.tab-header.data-v-57280228 {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #fffbfb;
+	padding-bottom: 10px;
+	box-shadow: 0px -5px 10px 0px #e1e1e1;
+}
+.tab-item.data-v-57280228 {
+	flex: 1;
+	text-align: center;
+	font-size: 14px;
+	line-height: 50px;
+	cursor: pointer;
+}
+.index.data-v-57280228 {
+	background-color: #F2F4FF;
+}
+.tab-active.data-v-57280228 {
+	color: #409eff;
+}
+.tab-body.data-v-57280228 {
+	flex: 1;
+	overflow-y: scroll;
+	/* padding: 16px; */
+}
+.header_bar.data-v-57280228 {
+	text-align: center;
+}
+.bg_i.data-v-57280228 {
+	width: 100%;
+	height: 100%;
+	background: url(/static/img/bg.png) no-repeat;
+	background-size: 100% 100%;
+	padding-top: 151rpx;
+}
+.search.data-v-57280228 {
+	width: 650rpx;
+	height: 50rpx;
+	display: flex;
+	align-items: center;
+	border: 1px solid #e1e1e1;
+	border-radius: 28px;
+	justify-content: space-between;
+	background: #4F9DFB;
+	padding: 0 20rpx;
+	opacity: 0.7;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.bg_i .search_bar.data-v-57280228 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 14rpx 20rpx 0;
+}
+.bg_i .search_bar ._img.data-v-57280228 {
+	width: 31rpx;
+	height: 31rpx;
+}
+.bg_i .search_bar .search ._img.data-v-57280228 {
+	width: 29rpx;
+	height: 29rpx;
+}
+.bg_i .search_bar .jia.data-v-57280228 {
+	margin-right: 4rpx;
+}
+
+/* 金刚位 */
+.diamond.data-v-57280228 {
+	margin: 20rpx 16rpx 0;
+	padding: 24rpx;
+	background: linear-gradient(0deg, #FFFFFF 0%, #FFEFED 100%);
+	border-radius: 6px;
+}
+.diamond .diamondText.data-v-57280228 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.diamond .diamondText .textCon.data-v-57280228 {
+	font-size: 36rpx;
+	font-weight: bold;
+	color: #333333;
+}
+.diamond .diamondText .textCon .red.data-v-57280228 {
+	color: #FF0000;
+}
+.diamond .diamondText .functionCp.data-v-57280228 {
+	display: flex;
+	align-items: center;
+}
+.diamond .diamondText .functionCp .textCp.data-v-57280228 {
+	color: #999999;
+	font-size: 32rpx;
+}
+.diamond .diamondText .functionCp .searchFdj.data-v-57280228 {
+	width: 94rpx;
+	height: 60rpx;
+	background: #E8EAF6;
+	border-radius: 17px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 24rpx;
+}
+.diamond .diamondText .functionCp .searchFdj ._img.data-v-57280228 {
+	width: 39rpx;
+	height: 39rpx;
+}
+.diamond .diamondKey.data-v-57280228 {
+	display: flex;
+}
+.diamond .diamondKey .key.data-v-57280228 {}
+

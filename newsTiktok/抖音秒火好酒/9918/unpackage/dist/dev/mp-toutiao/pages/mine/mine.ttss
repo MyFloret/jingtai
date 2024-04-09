@@ -1,0 +1,45 @@
+
+.mineMain {
+	width: 100%;
+	height: 100vh;
+	background-color: #fff;
+}
+.compontent_mine {
+	padding: 60rpx 20rpx 0 39rpx;
+}
+.compontent_mine .img_header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.compontent_mine .img_header .header {
+	font-size: 28rpx;
+	color: #333333;
+}
+.compontent_mine .img_header ._img {
+	width: 200rpx;
+	height: 200rpx;
+}
+.compontent_mine .nickName {
+	margin-top: 81rpx;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.compontent_mine .nickName .nick {
+	font-size: 28rpx;
+	color: #333333;
+}
+.compontent_mine .nickName .inputPlaceholder {
+	width: 615rpx;
+	height: 65rpx;
+	padding-left: 28rpx;
+	line-height: 65rpx;
+	background: #FFFFFF;
+	border: 1px solid #DEDEDE;
+	border-radius: 10px;
+	box-sizing: border-box;
+	font-size: 26rpx;
+	color: #666666;
+}
+

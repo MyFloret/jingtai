@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "选品广场",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "search-go": "/components/search/search"
+  }
+}

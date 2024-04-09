@@ -1,0 +1,69 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/program/pargram",
+    "pages/detail/detail",
+    "pages/login/login",
+    "pages/moneyBar/moneyBar",
+    "pages/mine/mine",
+    "pages/shareBar/shareBar",
+    "pages/searchBar/searchBar",
+    "pages/shopDetail/shopDetail",
+    "pages/messageBoard/messageBoard",
+    "pages/footPrint/footPrint",
+    "pages/collectShop/collectShop",
+    "pages/aboutDetail/aboutDetail",
+    "pages/exhibitionDetail/exhibitionDetail",
+    "pages/mountpage/mountpage",
+    "pages/settleIn/settleIn",
+    "pages/releaseMine/releaseMine",
+    "pages/famous/famous",
+    "pages/selection/selection",
+    "pages/meperson/meperson"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTitleText": "酒水好帮手",
+    "navigationStyle": "default",
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#2282FA",
+    "mp-tuotiao": {
+      "usingComponents": {
+        "swiperBar": "plugin://swiperBar/swiperBar",
+        "checkbox": "plugin://checkbox/checkbox"
+      }
+    }
+  },
+  "tabBar": {
+    "color": "#9e9ea4",
+    "selectedColor": "#0a6edc",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/img/house_b.png",
+        "selectedIconPath": "static/img/house_big.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/famous/famous",
+        "iconPath": "static/img/tech.png",
+        "selectedIconPath": "static/img/qy_q.png",
+        "text": "名企"
+      },
+      {
+        "pagePath": "pages/selection/selection",
+        "iconPath": "static/img/showHome.png",
+        "selectedIconPath": "static/img/shopHome_select.png",
+        "text": "选品"
+      },
+      {
+        "pagePath": "pages/meperson/meperson",
+        "iconPath": "static/img/men_i.png",
+        "selectedIconPath": "static/img/my.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "component2": true,
+  "usingComponents": {}
+}

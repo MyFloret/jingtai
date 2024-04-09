@@ -1,0 +1,1 @@
+<view class="mineMain"><view class="compontent_mine"><view class="img_header"><view class="header">头像</view><image src="{{user.avatarUrl}}" alt class="_img"></image></view><view class="nickName"><view class="nick">昵称</view><view class="inputPlaceholder">{{''+user.nickName+''}}</view></view></view></view>

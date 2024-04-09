@@ -1,0 +1,1 @@
+<view class="diamond"><block tt:for="{{list}}" tt:for-item="item" tt:for-index="index" tt:key="index"><view class="dl"><view class="dt"><image src="{{item.headUrl}}" alt class="_img"></image></view><view class="dd"><view class="p">{{''+item.celebrityName+''}}</view></view></view></block></view>

@@ -1,0 +1,22 @@
+
+.uni_swiper {
+	/* width: 690rpx; */
+	width: 100%;
+	overflow: hidden;
+	padding: 14rpx 20rpx;
+	box-sizing: border-box;
+}
+.swiper {
+	height: 300rpx;
+}
+swiper-item {
+	width: 100%;
+}
+swiper-item ._img {
+	display: block;
+	height: 300rpx;
+	line-height: 300rpx;
+	text-align: center;
+	width: 100%;
+}
+

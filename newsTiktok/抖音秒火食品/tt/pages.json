@@ -1,0 +1,259 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+
+			"style": {
+				"navigationBarTitleText": "食品好帮手",
+				"enablePullDownRefresh": true
+			},
+			"config": {
+				"share": {
+					"showShareMenu": true
+				}
+			}
+		},
+		{
+			"path": "pages/program/pargram",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			},
+			"config": {
+				"share": {
+					"showShareMenu": true
+				}
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			},
+			"config": {
+				"share": {
+					"showShareMenu": true
+				}
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "入驻申请食品好帮手",
+				"enablePullDownRefresh": false
+			},
+			"config": {
+				"share": {
+					"showShareMenu": true
+				}
+			}
+		},
+		{
+			"path": "pages/moneyBar/moneyBar",
+			"style": {
+				"navigationBarTitleText": "服务协议",
+				"enablePullDownRefresh": false
+			},
+			"config": {
+				"share": {
+					"showShareMenu": true
+				}
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"enablePullDownRefresh": false
+			},
+			"config": {
+				"share": {
+					"showShareMenu": true
+				}
+			}
+		},
+		{
+			"path": "pages/shareBar/shareBar",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			},
+			"config": {
+				"share": {
+					"showShareMenu": true
+				}
+			}
+		},
+		{
+			"path": "pages/searchBar/searchBar",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"enablePullDownRefresh": false
+			},
+			"config": {
+				"share": {
+					"showShareMenu": true
+				}
+			}
+		},
+		{
+			"path": "pages/shopDetail/shopDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			},
+			"config": {
+				"share": {
+					"showShareMenu": true
+				}
+			}
+		}, {
+			"path": "pages/messageBoard/messageBoard",
+			"style": {
+				"navigationBarTitleText": "我的留言",
+				"enablePullDownRefresh": false
+			},
+			"config": {
+				"share": {
+					"showShareMenu": true
+				}
+			}
+		}, {
+			"path": "pages/footPrint/footPrint",
+			"style": {
+				"navigationBarTitleText": "我的足迹",
+				"enablePullDownRefresh": false
+			},
+			"config": {
+				"share": {
+					"showShareMenu": true
+				}
+			}
+		}, {
+			"path": "pages/collectShop/collectShop",
+			"style": {
+				"navigationBarTitleText": "店铺收藏",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/aboutDetail/aboutDetail",
+			"style": {
+				"navigationBarTitleText": "关于食品好帮手",
+				"enablePullDownRefresh": false
+			},
+			"config": {
+				"share": {
+					"showShareMenu": true
+				}
+			}
+
+		}, {
+			"path": "pages/exhibitionDetail/exhibitionDetail",
+			"style": {
+				"navigationBarTitleText": "展会详情",
+				"enablePullDownRefresh": false
+			},
+			"config": {
+				"share": {
+					"showShareMenu": true
+				}
+			}
+		},
+		{
+			"path": "pages/mountpage/mountpage",
+			"style": {
+				"navigationBarTitleText": "食品好帮手",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ff4102"
+			},
+			"config": {
+				"share": {
+					"showShareMenu": true
+				}
+			}
+		},
+		{
+			"path": "pages/settleIn/settleIn",
+			"style": {
+				"navigationBarTitleText": "发布需求",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/releaseMine/releaseMine",
+			"style": {
+				"navigationBarTitleText": "我的发布",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/famous/famous",
+			"style": {
+				"navigationBarTitleText": "名企展示",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/selection/selection",
+			"style": {
+				"navigationBarTitleText": "选品广场",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/meperson/meperson",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#9e9ea4",
+		"selectedColor": "#0a6edc",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/img/house_b.png",
+				"selectedIconPath": "static/img/house_big.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/famous/famous",
+				"iconPath": "static/img/tech.png",
+				"selectedIconPath": "static/img/qy_q.png",
+				"text": "名企"
+			},
+			{
+				"pagePath": "pages/selection/selection",
+				"iconPath": "static/img/showHome.png",
+				"selectedIconPath": "static/img/shopHome_select.png",
+				"text": "选品"
+			},
+			{
+				"pagePath": "pages/meperson/meperson",
+				"iconPath": "static/img/men_i.png",
+				"selectedIconPath": "static/img/my.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTitleText": "食品好帮手",
+		"navigationStyle": "default",
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#2282FA",
+		// "backgroundColor": "#F8F8F8",
+		"mp-tuotiao": {
+			"usingComponents": {
+				"swiperBar": "plugin://swiperBar/swiperBar",
+				"checkbox": "plugin://checkbox/checkbox"
+			}
+		}
+	},
+	"uniIdRouter": {},
+	"enableShareAppMessage": true,
+	"navigateToMiniProgramAppIdList": [
+		"tt48b33e0ed78c10c801"
+	],
+	"usePrivacyCheck": true 
+}

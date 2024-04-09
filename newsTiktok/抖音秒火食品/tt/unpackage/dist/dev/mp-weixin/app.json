@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/index/index",
+    "common/bottomBar/bottomBar",
+    "common/tabBar/tabBar",
+    "pages/login/login",
+    "pages/moneyBar/moneyBar",
+    "pages/mine/mine",
+    "pages/shareBar/shareBar",
+    "pages/searchBar/searchBar",
+    "common/swiperBar/swiperBar",
+    "common/diamondColumn/diamondColumn",
+    "common/shopList/shopList",
+    "common/swiperBon/swiperBon"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTitleText": "快消好帮手",
+    "navigationStyle": "custom",
+    "mp-tuotiao": {
+      "usingComponents": {
+        "swiperBar": "plugin://swiperBar/swiperBar"
+      }
+    }
+  },
+  "usingComponents": {}
+}

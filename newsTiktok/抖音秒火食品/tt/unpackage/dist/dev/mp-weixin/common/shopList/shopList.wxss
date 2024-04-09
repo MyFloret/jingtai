@@ -1,0 +1,18 @@
+
+.tab {
+	display: flex;
+	justify-content: space-around;
+}
+.tab-item {
+	padding: 10px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	        user-select: none;
+}
+.tab-item.active {
+	color: #f00;
+}
+.tab-content {
+	margin-top: 10px;
+}
+

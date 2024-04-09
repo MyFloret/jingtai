@@ -1,0 +1,104 @@
+
+#app {
+	background-color: #fff !important;
+}
+.Content_title {
+	width: 100%;
+	height: 70rpx;
+	background: #F1F1F1;
+	box-sizing: border-box;
+	line-height: 70rpx;
+	padding-left: 25rpx;
+	font-size: 32rpx;
+}
+.textNumber {
+	color: #FF6633;
+}
+.Content_text {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	border-bottom: 1px solid #DEDEDE;
+}
+.content-header {
+	display: flex;
+	justify-content: space-between;
+	/* justify-content: start; */
+	padding: 18rpx 22rpx 28rpx 26rpx;
+}
+.left-header {
+	display: flex;
+	padding-top: 5rpx;
+}
+.left-header image {
+	width: 80rpx;
+	height: 80rpx;
+	border-radius: 50%;
+	padding-right: 24rpx;
+}
+.left_headerBar .left_name {
+	font-size: 34rpx;
+	font-weight: 500;
+	color: #333333;
+}
+.left_headerBar .left_address {
+	font-size: 28rpx;
+	font-weight: 500;
+	color: #666666;
+	margin-top: 12rpx;
+}
+.right-header {
+	width: 82rpx;
+	height: 44rpx;
+	background: #F6F6F6;
+	border-radius: 6px;
+	font-size: 28rpx;
+	color: #666666;
+	text-align: center;
+	line-height: 44rpx;
+}
+.compontent_main {
+	padding-left: 25rpx;
+}
+.main_text {
+	font-size: 28rpx;
+	font-weight: 500;
+	color: #2282FA;
+	/* line-height: 10rpx; */
+}
+.Content_titleType {
+	font-size: 30rpx;
+	color: #333333;
+	/* line-height: 10rpx; */
+}
+.time_content {
+	display: flex;
+	justify-content: space-between;
+	padding: 40rpx 22rpx 40rpx 0;
+}
+.tiemCard {
+	font-size: 26rpx;
+	color: #999999;
+}
+.detectCard {
+	display: flex;
+	align-items: center;
+}
+.detectCard image {
+	width: 25rpx;
+	height: 26rpx;
+}
+.detect {
+	font-size: 26rpx;
+	font-weight: 500;
+	color: #999999;
+}
+.muchNum {
+	font-size: 28rpx;
+	text-align: center;
+	font-weight: 500;
+	color: #CCCCCC;
+	line-height: 32px;
+	padding-bottom: 40rpx;
+}
+

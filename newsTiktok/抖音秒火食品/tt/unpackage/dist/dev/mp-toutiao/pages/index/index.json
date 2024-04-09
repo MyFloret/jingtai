@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "食品好帮手",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "diamond-column": "/components/diamondColumn/diamondColumn",
+    "search-go": "/components/search/search",
+    "swiper-bon": "/components/swiperBon/swiperBon"
+  }
+}

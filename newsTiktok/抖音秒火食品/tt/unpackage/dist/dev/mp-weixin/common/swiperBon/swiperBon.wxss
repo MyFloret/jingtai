@@ -1,0 +1,44 @@
+
+.flex {
+	display: flex;
+	/* justify-content: space-between; */
+	font-size: 24rpx;
+}
+.flex .gg {
+	width: 64rpx;
+	/* height: 32rpx; */
+	background: linear-gradient(90deg, #579BF3 0%, #316FEA 100%);
+	border-radius: 6px;
+	text-align: center;
+	color: #fff;
+	line-height: 32rpx;
+	margin-right: 15rpx;
+}
+.flex .contentText {
+	color: #333333;
+	font-size: 24rpx;
+	margin-right: 78rpx;
+}
+.uni_swiper {
+	/* width: 690rpx; */
+	width: 100%;
+	overflow: hidden;
+	padding: 20rpx;
+	box-sizing: border-box;
+}
+.swiper {
+	height: 100rpx;
+}
+swiper-item {
+	width: 100%;
+}
+swiper {
+	height: 50rpx;
+}
+swiper-item ._img {
+	display: block;
+	height: 100rpx;
+	text-align: center;
+	width: 100%;
+}
+
