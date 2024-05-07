@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+</head>
+
+<body>
+    <span>区域：</span>
+    <select id="area" class="select2">
+        <option value="" selected="selected">请选择区域</option>
+        <option value="1">珠海</option>
+        <option value="2">深圳</option>
+        <option value="3">澳门</option>
+        <option value="4">香港</option>
+    </select>
+</body>
+
+<script type="text/javascript">
+    $(function () {
+        $("#area").select2();
+    });
+
+    $('#area').select2({
+        placeholder: '请选择区域'
+    });
+    var areaObj = $("#area").select2();
+    var optionVal = 1;
+    areaObj.val(optionVal).trigger("change");
+    areaObj.change();
+    
+
+</script>
+
+
+</html>
