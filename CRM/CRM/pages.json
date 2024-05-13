@@ -1,0 +1,578 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "秒火网CRM",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+		}, 
+		// {
+		// 	"path": "pages/backlog/backlog",
+		// 	"style": {
+		// 		"navigationBarTitleText": "待办数据",
+		// 		"navigationBarBackgroundColor": "#007AFF",
+		// 		"enablePullDownRefresh": false,
+		// 		"navigationBarTextStyle": "white"
+		// 	}
+
+		// }, 
+		{
+			"path": "pages/crm/crm",
+			"style": {
+				"navigationBarTitleText": "客户管理",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/crm/kehu/kehu",
+			"style": {
+				"navigationBarTitleText": "客户列表",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/crm/kehu/kehuGh",
+			"style": {
+				"navigationBarTitleText": "客户池",
+				"navigationBarBackgroundColor": "#007AFF",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/crm/lianxiren/lianxiren",
+			"style": {
+				"navigationBarTitleText": "联系人",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/crm/fujin/fujin",
+			"style": {
+				"navigationBarTitleText": "附近的客户",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/crm/chaChong/chaChong",
+			"style": {
+				"navigationBarTitleText": "查重工具",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/crm/huiFang/huiFang",
+			"style": {
+				"navigationBarTitleText": "回访",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/crm/genJin/genJin",
+			"style": {
+				"navigationBarTitleText": "跟进记录",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/crm/kehu/addKeHu",
+			"style": {
+				"navigationBarTitleText": "新增客户",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/crm/lianxiren/addLxr",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/crm/genJin/add",
+			"style": {
+				"navigationBarTitleText": "新建跟进记录",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/crm/shangji/shangji",
+			"style": {
+				"navigationBarTitleText": "商机",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/crm/hetong/hetong",
+			"style": {
+				"navigationBarTitleText": "合同",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/crm/huikuan/huikuan",
+			"style": {
+				"navigationBarTitleText": "回款",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/crm/shangji/addSj",
+			"style": {
+				"navigationBarTitleText": "新建商机",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/crm/hetong/addHt",
+			"style": {
+				"navigationBarTitleText": "新建合同",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/crm/huikuan/addHk",
+			"style": {
+				"navigationBarTitleText": "新建回款",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/crm/huikuanJH/huikuanJH",
+			"style": {
+				"navigationBarTitleText": "回款计划",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/crm/huikuanJH/addHkjh",
+			"style": {
+				"navigationBarTitleText": "新建回款计划",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/crm/baoJiaDan/baoJiaDan",
+			"style": {
+				"navigationBarTitleText": "报价单",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/crm/baoJiaDan/addBjd",
+			"style": {
+				"navigationBarTitleText": "新建报价单",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/regLogin/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/regLogin/reg",
+			"style": {
+				"navigationBarTitleText": "企业用户注册",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/crm/kehu/khDetail",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/webview/webview",
+			"style": {
+				"navigationBarTitleText": "客户详情",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/crm/lianxiren/detail",
+			"style": {
+				"navigationBarTitleText": "联系人详情",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/crm/genJin/detail",
+			"style": {
+				"navigationBarTitleText": "跟进详情",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/crm/shangji/detail",
+			"style": {
+				"navigationBarTitleText": "商机详情",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/crm/baoJiaDan/detail",
+			"style": {
+				"navigationBarTitleText": "报价单详情",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/crm/hetong/detail",
+			"style": {
+				"navigationBarTitleText": "合同详情",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/crm/huikuanJH/detail",
+			"style": {
+				"navigationBarTitleText": "回款计划详情",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/crm/huikuan/detail",
+			"style": {
+				"navigationBarTitleText": "回款详情",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/crm/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/crm/huikuanJH/update",
+			"style": {
+				"navigationBarTitleText": "修改回款计划",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/crm/returnHk/returnHk",
+			"style": {
+				"navigationBarTitleText": "退货退款",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/crm/returnHk/add",
+			"style": {
+				"navigationBarTitleText": "新建退货退款",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "uview-ui/components/u-avatar-cropper/u-avatar-cropper",
+			"style": {
+				"navigationBarTitleText": "头像裁剪",
+				"navigationBarBackgroundColor": "#000000"
+			}
+		}, {
+			"path": "pages/regLogin/wxLogin",
+			"style": {
+				"navigationBarTitleText": "微信登录",
+				"navigationBarBackgroundColor": "#007AFF",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/crm/thread/thread",
+			"style": {
+				"navigationBarTitleText": "线索",
+				"navigationBarBackgroundColor": "#007AFF",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/crm/thread/threadc",
+			"style": {
+				"navigationBarTitleText": "线索池",
+				"navigationBarBackgroundColor": "#007AFF",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/crm/thread/addThread",
+			"style": {
+				"navigationBarTitleText": "添加线索",
+				"navigationBarBackgroundColor": "#007AFF",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/crm/thread/threadDetail",
+			"style": {
+				"navigationBarTitleText": "线索详情",
+				"navigationBarBackgroundColor": "#007AFF",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/crm/thread/addGj",
+			"style": {
+				"navigationBarTitleText": "新增线索跟进记录",
+				"navigationBarBackgroundColor": "#007AFF",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/crm/thread/gjDetail",
+			"style": {
+				"navigationBarTitleText": "线索跟进记录详情",
+				"navigationBarBackgroundColor": "#007AFF",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/regLogin/setPassword",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"subPackages": [{
+			"root": "chanpin",
+			"pages": [{
+					"path": "view/chanpin",
+					"style": {
+						"navigationBarTitleText": "产品",
+						"navigationBarBackgroundColor": "#007AFF",
+						"navigationBarTextStyle": "white",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "view/addCp",
+					"style": {
+						"navigationBarTitleText": "新建产品",
+						"navigationBarBackgroundColor": "#007AFF",
+						"navigationBarTextStyle": "white",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "view/classify",
+					"style": {
+						"navigationBarTitleText": "产品分类",
+						"enablePullDownRefresh": false,
+						"navigationBarBackgroundColor": "#007AFF",
+						"navigationBarTextStyle": "white"
+					}
+				}, {
+					"path": "view/shop",
+					"style": {
+						"navigationBarTitleText": "商城",
+						"enablePullDownRefresh": false,
+						"navigationBarBackgroundColor": "#007AFF",
+						"navigationBarTextStyle": "white"
+					}
+				}, {
+					"path": "view/cpDetail",
+					"style": {
+						"navigationBarTitleText": "产品详情",
+						"enablePullDownRefresh": false,
+						"navigationBarBackgroundColor": "#007AFF",
+						"navigationBarTextStyle": "white",
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "view/searchAdmin",
+					"style": {
+						"navigationBarTitleText": "搜索",
+						"enablePullDownRefresh": false,
+						"navigationBarBackgroundColor": "#007AFF",
+						"navigationBarTextStyle": "white"
+					}
+				}, {
+					"path": "view/search",
+					"style": {
+						"navigationBarTitleText": "搜索",
+						"enablePullDownRefresh": false,
+						"navigationBarBackgroundColor": "#007AFF",
+						"navigationBarTextStyle": "white"
+					}
+				}
+			]
+		},
+		{
+			"root": "qywxPage",
+			"pages": [{
+				"path": "view/qywxClient/qywxClient",
+				"style": {
+					"navigationBarTitleText": "企微客户列表",
+					"navigationBarBackgroundColor": "#007AFF",
+					"navigationBarTextStyle": "white",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "view/qywxClient/khDetail",
+				"style": {
+					"navigationBarTitleText": "企微客户详情",
+					"navigationBarBackgroundColor": "#007AFF",
+					"navigationBarTextStyle": "white",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "view/qywxClient/updateKeHu",
+				"style": {
+					"navigationBarTitleText": "编辑客户",
+					"navigationBarBackgroundColor": "#007AFF",
+					"navigationBarTextStyle": "white",
+					"enablePullDownRefresh": false
+				}
+
+			}]
+		}
+	],
+	"preloadRule": {
+		"pages/crm/crm": {
+			"network": "all",
+			"packages": ["qywxPage"]
+		}
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "秒火网CRM",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+		// // #ifdef H5
+		// ,"navigationStyle": "custom"
+		// // #endif
+	},
+	"permission": {
+		"scope.userLocation": {
+			"desc": "你的位置信息将用于小程序位置接口的效果展示" // 高速公路行驶持续后台定位
+		}
+	},
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"fontSize": "13",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/index.png",
+				"selectedIconPath": "static/tabbar/indexA.png",
+				"text": "首页"
+			},
+			// {
+			// 	"pagePath": "pages/backlog/backlog",
+			// 	"iconPath": "static/tabbar/backlog.png",
+			// 	"selectedIconPath": "static/tabbar/backlogA.png",
+			// 	"text": "待办数据"
+			// },
+			// {
+			// 	"pagePath": "pages/crm/kehu/kehu",
+			// 	"iconPath": "static/tabbar/kehu.png",
+			// 	"selectedIconPath": "static/tabbar/kehuA.png",
+			// 	"text": "客户"
+			// },
+			{
+				"pagePath": "pages/crm/crm",
+				"iconPath": "static/tabbar/guanli.png",
+				"selectedIconPath": "static/tabbar/guanliA.png",
+				"text": "CRM"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"iconPath": "static/tabbar/mine.png",
+				"selectedIconPath": "static/tabbar/mineA.png",
+				"text": "我的"
+			}
+		]
+	},
+	"easycom": {
+		// 下载安装的方式需要前面的"@/"，npm安装的方式无需"@/"
+		// 下载安装方式
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	}
+}
