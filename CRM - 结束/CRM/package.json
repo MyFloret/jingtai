@@ -1,0 +1,85 @@
+{
+	"displayName": "CRM_客户管理系统_移动端（uniCloud项目）",
+	"name": "xyk-crm",
+	"id": "xyk-crm",
+	"version": "1.9.5",
+	"description": "秒火网渠道商管理系统+企业微信，助力企业销售全流程精细化、数字化管理，从线索转入客户,转化商业机会,进入销售漏斗,推进机会赢单,设定回款计划,为销售严控把握每一步成交要点,实现业绩飞速增长！可定制开发！",
+	"main": "main.js",
+	"keywords": [
+		"CRM",
+		"客户管理",
+		"客户关系管理",
+		"销售管理"
+	],
+	"engines": {
+		"HBuilderX": "^3.1.0"
+	},
+	"uni_modules": {
+		"encrypt": [],
+		"platforms": {
+			"cloud": {
+				"tcb": "y",
+				"aliyun": "y",
+				"alipay": "n"
+			},
+			"client": {
+				"Vue": {
+					"vue2": "y",
+					"vue3": "n"
+				},
+				"App": {
+					"app-vue": "y",
+					"app-nvue": "y"
+				},
+				"H5-mobile": {
+					"Safari": "y",
+					"Android Browser": "y",
+					"微信浏览器(Android)": "y",
+					"QQ浏览器(Android)": "y"
+				},
+				"H5-pc": {
+					"Chrome": "u",
+					"IE": "u",
+					"Edge": "u",
+					"Firefox": "u",
+					"Safari": "u"
+				},
+				"小程序": {
+					"微信": "y",
+					"阿里": "u",
+					"百度": "u",
+					"字节跳动": "u",
+					"QQ": "y"
+				},
+				"快应用": {
+					"华为": "u",
+					"联盟": "u"
+				}
+			}
+		}
+	},
+	"dcloudext": {
+		"sale": {
+			"regular": {
+				"price": "0.00"
+			},
+			"sourcecode": {
+				"price": "0.00"
+			}
+		},
+		"contact": {
+			"qq": ""
+		},
+		"declaration": {
+			"ads": "无",
+			"data": "无",
+			"permissions": "无"
+		},
+		"npmurl": "",
+		"type": "unicloud-template-project"
+	},
+	"repository": "",
+	"dependencies": {
+		"moment": "^2.30.1"
+	}
+}
